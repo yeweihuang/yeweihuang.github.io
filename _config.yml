@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Yewei Huang"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/yewei_photo_2.jpg"
   bio    : "I'm a person interested in robots."
   links:
     - label: "Website"
@@ -70,9 +70,9 @@ author:
     #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/yeweihuang"
     - label: "Google Scholar"
-      icon: "fas fa-book"
+      icon: "fas fa-fw fa-book"
       url: "https://scholar.google.com/citations?user=8g3U_tkAAAAJ&hl=en"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
