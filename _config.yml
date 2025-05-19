@@ -76,7 +76,7 @@ author:
       url: "https://scholar.google.com/citations?user=8g3U_tkAAAAJ&hl=en"
     - label: "CV"
       icon: "fas fa-fw fa-file-alt"
-      url: "assets/cv_yeweihuang.pdf"
+      url: "/assets/cv_yeweihuang.pdf"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
