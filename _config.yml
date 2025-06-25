@@ -93,25 +93,25 @@ author:
 #       icon: "fab fa-fw fa-instagram"
 #       url: "https://instagram.com/"
 
-
-  # _posts
-  # - scope:
-  #     path: ""
-  #     type: posts
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     read_time: false
-  #     comments: false
-  #     share: false
-  #     related: false
 defaults:
+  # _posts
   - scope:
       path: ""
-      type: pages
+      type: posts
     values:
       layout: single
       author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
+
+  # - scope:
+  #     path: ""
+  #     type: pages
+  #   values:
+  #     layout: single
+  #     author_profile: true
 
   # _pages
   # - scope:
