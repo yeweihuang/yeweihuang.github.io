@@ -94,24 +94,34 @@ author:
 #       url: "https://instagram.com/"
 
 defaults:
-  # _posts
+  # # _posts
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: false
+  #     comments: false
+  #     share: false
+  #     related: false
   - scope:
       path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: false
-      comments: false
-      share: false
-      related: false
-  # _pages
-  - scope:
-      path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
+  # # _pages
+  # - scope:
+  #     path: "_pages"
+  #     type: pages
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  # Set the homepage to be /about
+  collections:
+    pages:
+      output: true
 
 category_archive:
   type: liquid
