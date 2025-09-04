@@ -3,7 +3,7 @@ layout: page
 title: Yewei Huang
 permalink: /
 ---
-<img src="{{ '/assets/images/yeweihuang.jpg' | relative_url }}" 
+<img src="{{ '/assets/images/yeweihuang.JPG' | relative_url }}" 
      alt="Yewei Huang" 
      style="float: right; width:300px; border-radius:50%; margin-left: 1rem; margin-bottom: 0.5rem;"/>
 
