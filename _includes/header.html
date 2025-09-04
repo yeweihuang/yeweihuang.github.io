@@ -1,0 +1,62 @@
+<header class="header-row">
+  <div class="container">
+    <div class="header-left"> </div>
+    <ul class="header-right">
+	  <li><a href="{{ site.baseurl }}/index">About</a></li>
+      <li><a href="{{ site.baseurl }}/cv">CV</a></li>
+      <li><a href="{{ site.baseurl }}/#research">Research</a></li>
+      <li><a href="{{ site.baseurl }}/#publications">Publications</a></li>
+    </ul>
+  </div>
+</header>
+<style>
+
+.header-row {
+  position: fixed;       /* Stick to the top */
+  top: 0;                /* Align at top */
+  left: 0;
+  width: 100%;           /* Full width */
+  background-color: #000000; /* Same background so it looks solid */
+  padding: 10px 0;
+  border-bottom: .5px solid #000000;
+  z-index: 1000;         /* Make sure it’s above other elements */
+}
+
+
+.header-row .container {
+    max-width: 1200px;             /* constrain the bar width */
+    margin: 0 auto;                /* center the container horizontally */
+    display: flex;
+    justify-content: space-between; /* left & right alignment */
+    align-items: center;
+    padding: 0 2rem;               /* add some space from edges */
+}
+
+.header-left {
+    font-weight: bold;
+    color: #f8f9fa;
+}
+
+.header-right {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.header-right li a {
+    text-decoration: none;
+    color: #f8f9fa;
+    font-weight: normal;
+}
+
+.header-right li a:hover {
+    text-decoration: underline;
+}
+
+body {
+  padding-top: 60px;     /* Push content down so it doesn’t hide under header */
+}
+
+</style>
