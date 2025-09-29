@@ -105,7 +105,7 @@ A central question I address is:
         <!-- Paper description -->
   <div>
     <p style="margin: 0;"><strong>Mission-Oriented Gaussian Process Motion Planning for UUVs Over Complex Seafloor Terrain and Current Flows</strong></p>
-    <p style="margin: 0;">Under Review</p>
+    <p style="margin: 0;">IEEE Robotics and Automation Letters 2024</p>
     <p style="margin: 0;">Available at <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10380691" 
     target="_blank">IEEE Xplore</a> | <a href="https://github.com/RobustFieldAutonomyLab/Mission-Oriented-GP-Motion-Planning" 
     target="_blank">Github</a></p>
