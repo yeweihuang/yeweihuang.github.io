@@ -148,13 +148,59 @@ manned Surface Vehicles," <span style="font-style: italic;">IEEE International C
 
 <p><strong>Other Publications</strong></p>
 <p>K. Doherty, A. Papalia, Y. Huang, D. Rosen, B. Englot, J. Leonard" MAC: Maximizing Algebraic Connectivity for Graph Sparsification," Work-In-Progress Paper. (<a href="https://openreview.net/forum?id=2qHgygelK8">Link to arXiv preprint</a>)</p>
-<p>Y. Huang, X. Lin, and B. Englot, "Multi-Robot Autonomous Exploration and Mapping Under Localization Uncertainty via Reinforcement Learning on Graphs," Work-In-Progress Paper, <span style="font-style: italic;">Proceedings of the 21st International Conference on Ubiquitous Robots</span>, pp. 836-839, June 2024. (<a href="https://robustfieldautonomylab.github.io/WI5A.22.pdf">Full Text</a>)
-<p>Y. Huang and B. Englot, “Multi-Robot Autonomous Exploration and Mapping Under Localization Uncertainty with Expectation-Maximization,” <span style="font-style: italic;">IEEE IROS 2023 Workshop on Closing the Loop on Localization</span>, 4 pp., October 2023. (<a href="https://robustfieldautonomylab.github.io/Huang_Englot_IROS_2023_LocalizationWorkshop.pdf">Full Text</a>)
+<p>Y. Huang, X. Lin, and B. Englot, "Multi-Robot Autonomous Exploration and Mapping Under Localization Uncertainty via Reinforcement Learning on Graphs," Work-In-Progress Paper, <span style="font-style: italic;">Proceedings of the 21st International Conference on Ubiquitous Robots</span>, pp. 836-839, June 2024. (<a href="https://robustfieldautonomylab.github.io/WI5A.22.pdf">Full Text</a>)</p>
+<p>Y. Huang and B. Englot, “Multi-Robot Autonomous Exploration and Mapping Under Localization Uncertainty with Expectation-Maximization,” <span style="font-style: italic;">IEEE IROS 2023 Workshop on Closing the Loop on Localization</span>, 4 pp., October 2023. (<a href="https://robustfieldautonomylab.github.io/Huang_Englot_IROS_2023_LocalizationWorkshop.pdf">Full Text</a>)</p>
 <p>J. Wang, F. Chen, Y. Huang, J. McConnell, T. Shan, and B. Englot,
 "Virtual Maps for Autonomous Exploration of Cluttered Underwater Environments," <span style="font-style: italic;">IEEE ICRA 2021 Workshop on Underwater Active Perception</span>, 8 pp., June 2021. (<a href="https://robustfieldautonomylab.github.io/Wang_ICRA_2021_UW_Robotics_Workshop_Paper_v2.pdf">Full Text</a>, <a href="https://robustfieldautonomylab.github.io/Wang_ICRA_2021_UW_Robotics_Workshop_Poster.pdf">Workshop Poster</a>, <a href="https://robustfieldautonomylab.github.io/Wang_ICRA_2021_UW_Robotics_Workshop_Video.mp4">Video Attachment</a>)</p>    
 <p>Y. Huang, H. Wang, K. Zhan, J. Zhao, P. Gui, T. Feng,
 "Image-based localization for indoor environment using mobile phone," <span style="font-style: italic;">The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences</span>, pp. 211-215, June 2015. (<a href="https://isprs-archives.copernicus.org/articles/XL-4-W5/211/2015/isprsarchives-XL-4-W5-211-2015.pdf">Full Text</a>)</p>
 
-
 <p><strong>Thesis</strong></p>
 <p>Y. Huang, <span style="font-style: italic;">Inference with Factor Graphs for Single and Multi-Robot Perception and Navigation</span>, Ph.D. Thesis, Stevens Institute of Technology, May 2025. (<a href="https://robustfieldautonomylab.github.io/Huang_PhD_Thesis_2025.pdf">Full Text</a>)</p>   
+
+# Robots
+
+In recent years, I have had the honor of working with the following robots:
+<!-- Robots in one line -->
+<div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; text-align: center;">
+
+  <!-- Jackal block -->
+  <div style="margin-bottom: 1.5rem;">
+    <p style="font-weight: bold; font-size: 1.1rem;">Clearpath Jackal</p>
+    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+      <img src="/assets/images/jackal1.jpg" alt="Jackal 1" style="height: 250px; border-radius: 0;">
+      <img src="/assets/images/jackal2.jpg" alt="Jackal 2" style="height: 250px; border-radius: 0;">
+    </div>
+  </div>
+
+  <!-- Unitree block -->
+  <div style="margin-bottom: 1.5rem;">
+    <p style="font-weight: bold; font-size: 1.1rem;">Unitree Go2</p>
+    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+      <img src="/assets/images/unitree1.jpg" alt="Unitree 1" style="height: 250px; border-radius: 0;">
+    </div>
+  </div>
+
+  <!-- bluerov block -->
+  <div style="margin-bottom: 1.5rem;">
+    <p style="font-weight: bold; font-size: 1.1rem;">Blue Robotics BlueRov2</p>
+    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+      <!-- <img src="/assets/images/bluerov1.jpeg" alt="BlueRov2 1" style="width: 300px; border-radius: 0;"> -->
+      <!-- <img src="/assets/images/bluerov2.jpg" alt="BlueRov2 2" style="width: 300px; border-radius: 0;"> -->
+      <img src="/assets/images/bluerov3.jpg" alt="BlueRov2 3" style="height: 250px; border-radius: 0;">
+      <img src="/assets/images/bluerov4.jpg" alt="BlueRov2 4" style="height: 250px; border-radius: 0;">
+    </div>
+  </div>
+
+  <!-- blueboat block -->
+  <div style="margin-bottom: 1.5rem;">
+    <p style="font-weight: bold; font-size: 1.1rem;">Blue Robotics Blueboat</p>
+    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+      <img src="/assets/images/blueboat1.jpg" alt="Blueboat 1" style="height: 250px; border-radius: 0;">
+      <img src="/assets/images/blueboat2.jpg" alt="Blueboat 2" style="height: 250px; border-radius: 0;">
+    </div>
+  </div>
+
+</div>
+
+
