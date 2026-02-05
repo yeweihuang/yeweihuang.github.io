@@ -186,9 +186,9 @@ In recent years, I have had the honor of working with the following robots:
     <p style="font-weight: bold; font-size: 1.1rem;">Blue Robotics BlueRov2</p>
     <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
       <!-- <img src="/assets/images/bluerov1.jpeg" alt="BlueRov2 1" style="width: 300px; border-radius: 0;"> -->
-      <img src="/assets/images/bluerov5.jpg" alt="BlueRov2 2" style="width: 300px; border-radius: 0;">
       <img src="/assets/images/bluerov3.jpg" alt="BlueRov2 3" style="height: 250px; border-radius: 0;">
       <img src="/assets/images/bluerov4.jpg" alt="BlueRov2 4" style="height: 250px; border-radius: 0;">
+      <img src="/assets/images/bluerov5.jpg" alt="BlueRov2 2" style="width: 300px; border-radius: 0;">
     </div>
   </div>
 
