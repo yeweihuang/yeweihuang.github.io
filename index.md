@@ -114,7 +114,7 @@ A central question I address is:
   </div>
 </div>
 
-# Publications
+# 📚Publications
 <p><strong>Refereed Conference and Journal Publications</strong></p>
 <p><strong>2025</strong></p>
 <p>Y. Huang, J. McConnell, X. Lin, and B. Englot, "DRACo-SLAM2: Distributed Robust Acoustic Communication-efficient SLAM for Imaging Sonar Equipped Underwater Robot Teams with Object Graph Matching," <span style="font-style: italic;">IEEE/RSJ International Conference on Intelligent Robots and Systems</span>, October 2025. (<a href="https://arxiv.org/abs/2507.23629">Link to arXiv preprint</a>, <a href="https://robustfieldautonomylab.github.io/Huang_IROS_2025_Video.mp4">Video Attachment</a>, <a href="https://github.com/RobustFieldAutonomyLab/DRACO-SLAM2">Code Release</a>)</p>
