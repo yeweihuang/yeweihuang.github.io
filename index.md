@@ -188,7 +188,8 @@ In recent years, I have had the honor of working with the following robots:
       <!-- <img src="/assets/images/bluerov1.jpeg" alt="BlueRov2 1" style="width: 300px; border-radius: 0;"> -->
       <img src="/assets/images/bluerov3.jpg" alt="BlueRov2 3" style="height: 250px; border-radius: 0;">
       <img src="/assets/images/bluerov4.jpg" alt="BlueRov2 4" style="height: 250px; border-radius: 0;">
-      <img src="/assets/images/bluerov5.jpg" alt="BlueRov2 2" style="width: 300px; border-radius: 0;">
+      <img src="/assets/images/bluerov5.jpg" alt="BlueRov2 5" style="width: 300px; border-radius: 0;">
+      <img src="/assets/images/bluerov6.jpg" alt="BlueRov2 6" style="width: 300px; border-radius: 0;">
     </div>
   </div>
 
