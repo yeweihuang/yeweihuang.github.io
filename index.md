@@ -80,7 +80,7 @@ A central question I address is:
 
 <div style="display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.5rem;">
   <!-- Paper image -->
-  <img src="{{ '/assets/images/VRVM.jpg' | relative_url }}" 
+  <img src="{{ '/assets/images/variable_resolution.jpg' | relative_url }}" 
        alt="VRVM" 
        style="width:180px;"/>
         <!-- Paper description -->
