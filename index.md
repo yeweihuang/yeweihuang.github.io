@@ -33,7 +33,7 @@ A central question I address is:
     <p style="margin: 0;"><strong>DRACo-SLAM2: Distributed Robust Acoustic Communication-efficient SLAM for Imaging Sonar Equipped Underwater Robot Teams with Object Graph Matching</strong></p>
     <p style="margin: 0;">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025)</p>
     <p style="margin: 0;">Available at <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11246631" 
-    target="_blank">IEEE Xplore</a> || <a href="https://github.com/RobustFieldAutonomyLab/DRACO-SLAM2" 
+    target="_blank">IEEE Xplore</a> | <a href="https://github.com/RobustFieldAutonomyLab/DRACO-SLAM2" 
     target="_blank">Github</a></p>
     <li style="margin: 0;">Object map for data efficient communication</li>
     <li style="margin: 0;">Groupwise consistency for outlier detection</li>
@@ -90,7 +90,8 @@ A central question I address is:
     <p style="margin: 0;">Available at <a href="https://arxiv.org/abs/2603.22667" 
     target="_blank">arXiv</a> 
     <!-- | <a href="https://github.com/RobustFieldAutonomyLab/Multi-Robot-EM-Exploration"  -->
-    <!-- target="_blank">Github</a></p> -->
+    <!-- target="_blank">Github</a>-->
+    </p> 
     <li style="margin: 0;">Uncertainty-aware exploration for Unmanned Surface Vehicles (USVs)</li>
     <li style="margin: 0;">Quadtree-based mapping for uneven offshore environments</li>
   </div>
