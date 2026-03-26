@@ -86,7 +86,7 @@ A central question I address is:
         <!-- Paper description -->
   <div>
     <p style="margin: 0;"><strong>Variable-Resolution Virtual Maps for Autonomous Exploration with Unmanned Surface Vehicles (USVs)</strong></p>
-    <!-- <p style="margin: 0;">IEEE International Conference on Robotics and Automation (ICRA 2024)</p> -->
+    <p style="margin: 0;">Under Review</p>
     <p style="margin: 0;">Available at <a href="https://arxiv.org/abs/2603.22667" 
     target="_blank">arXiv</a> 
     <!-- | <a href="https://github.com/RobustFieldAutonomyLab/Multi-Robot-EM-Exploration"  -->
