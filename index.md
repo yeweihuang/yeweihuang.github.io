@@ -13,7 +13,7 @@ I am currently a postdoctoral researcher in the [Reality and Robotics Lab](https
 
 By combining my background in robotics and geo-information science, my long-term goal is to enable fully autonomous robots that can support the maintenance of underwater infrastructures and monitor the complex hydrodynamic and environmental conditions of offshore ecosystems.
 
-# Research
+# 🔍Research
 
 My research focuses on autonomous perception, mapping, and decision-making for mobile robots. 
 A central question I address is: 
@@ -23,6 +23,38 @@ A central question I address is:
  My focus area include: 
  - **Communication Efficient Multi-robot SLAM** 
 
+<div style="display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.5rem;">
+  <!-- Paper image -->
+  <img src="{{ '/assets/images/DRACo-SLAM2.jpg' | relative_url }}" 
+       alt="DRACo-SLAM2" 
+       style="width:180px;"/>
+        <!-- Paper description -->
+  <div>
+    <p style="margin: 0;"><strong>DRACo-SLAM2: Distributed Robust Acoustic Communication-efficient SLAM for Imaging Sonar Equipped Underwater Robot Teams with Object Graph Matching</strong></p>
+    <p style="margin: 0;">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025)</p>
+    <p style="margin: 0;">Available at <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11246631" 
+    target="_blank">IEEE Xplore</a> || <a href="https://github.com/RobustFieldAutonomyLab/DRACO-SLAM2" 
+    target="_blank">Github</a></p>
+    <li style="margin: 0;">Object map for data efficient communication</li>
+    <li style="margin: 0;">Groupwise consistency for outlier detection</li>
+  </div>
+</div>
+
+<div style="display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.5rem;">
+  <!-- Paper image -->
+  <img src="{{ '/assets/images/SGM-SLAM.jpg' | relative_url }}" 
+       alt="SGM-SLAM" 
+       style="width:180px;"/>
+        <!-- Paper description -->
+  <div>
+    <p style="margin: 0;"><strong>Communication Efficient Scene Graph SLAM</strong></p>
+    <p style="margin: 0;">Under Review</p>
+    <!-- <p style="margin: 0;">Available at <a href="https://arxiv.org/pdf/2507.23629"  -->
+    <!-- target="_blank">arXiv</a></p> -->
+    <li style="margin: 0;">Object graph matching for data efficient communication</li>
+    <li style="margin: 0;">Robust against view changes and occlusions</li>
+  </div>
+</div>
 
 <div style="display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.5rem;">
   <!-- Paper image -->
@@ -43,51 +75,37 @@ A central question I address is:
 
 </div>
 
-<div style="display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.5rem;">
-  <!-- Paper image -->
-  <img src="{{ '/assets/images/DRACo-SLAM2.jpg' | relative_url }}" 
-       alt="DRACo-SLAM2" 
-       style="width:180px;"/>
-        <!-- Paper description -->
-  <div>
-    <p style="margin: 0;"><strong>DRACo-SLAM2: Distributed Robust Acoustic Communication-efficient SLAM for Imaging Sonar Equipped Underwater Robot Teams with Object Graph Matching</strong></p>
-    <p style="margin: 0;">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025)</p>
-    <p style="margin: 0;">Available at <a href="https://arxiv.org/pdf/2507.23629" 
-    target="_blank">arXiv</a> | <a href="https://github.com/RobustFieldAutonomyLab/DRACO-SLAM2" 
-    target="_blank">Github</a></p>
-    <li style="margin: 0;">Object map for data efficient communication</li>
-    <li style="margin: 0;">Groupwise consistency for outlier detection</li>
-  </div>
-</div>
-
-<div style="display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.5rem;">
-  <!-- Paper image -->
-  <img src="{{ '/assets/images/SGM-SLAM.jpg' | relative_url }}" 
-       alt="DRACo-SLAM2" 
-       style="width:180px;"/>
-        <!-- Paper description -->
-  <div>
-    <p style="margin: 0;"><strong>Communication Efficient Scene Graph SLAM</strong></p>
-    <p style="margin: 0;">Under Review</p>
-    <!-- <p style="margin: 0;">Available at <a href="https://arxiv.org/pdf/2507.23629"  -->
-    <!-- target="_blank">arXiv</a></p> -->
-    <li style="margin: 0;">Object graph matching for data efficient communication</li>
-    <li style="margin: 0;">Robust against view changes and occlusions</li>
-  </div>
-</div>
-
  - **Reliable and Efficient Robot Exploration** 
+
+
+<div style="display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.5rem;">
+  <!-- Paper image -->
+  <img src="{{ '/assets/images/VRVM.jpg' | relative_url }}" 
+       alt="VRVM" 
+       style="width:180px;"/>
+        <!-- Paper description -->
+  <div>
+    <p style="margin: 0;"><strong>Variable-Resolution Virtual Maps for Autonomous Exploration with Unmanned Surface Vehicles (USVs)</strong></p>
+    <!-- <p style="margin: 0;">IEEE International Conference on Robotics and Automation (ICRA 2024)</p> -->
+    <p style="margin: 0;">Available at <a href="https://arxiv.org/abs/2603.22667" 
+    target="_blank">arXiv</a> 
+    <!-- | <a href="https://github.com/RobustFieldAutonomyLab/Multi-Robot-EM-Exploration"  -->
+    <!-- target="_blank">Github</a></p> -->
+    <li style="margin: 0;">Uncertainty-aware exploration for Unmanned Surface Vehicles (USVs)</li>
+    <li style="margin: 0;">Quadtree-based mapping for uneven offshore environments</li>
+  </div>
+</div>
 
 <div style="display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.5rem;">
   <!-- Paper image -->
   <img src="{{ '/assets/images/multi_em.jpeg' | relative_url }}" 
-       alt="DRACo-SLAM2" 
+       alt="multi-VM" 
        style="width:180px;"/>
         <!-- Paper description -->
   <div>
-    <p style="margin: 0;"><strong>Decentralized multi-robot navigation for autonomous surface vehicles with distributional reinforcement learning</strong></p>
+    <p style="margin: 0;"><strong>Multi-Robot Autonomous Exploration and Mapping Under Localization Uncertainty with Expectation-Maximization</strong></p>
     <p style="margin: 0;">IEEE International Conference on Robotics and Automation (ICRA 2024)</p>
-    <p style="margin: 0;">Available at <a href="https://ieeexplore.ieee.org/abstract/document/10611668" 
+    <p style="margin: 0;">Available at <a href="https://ieeexplore.ieee.org/document/10611495" 
     target="_blank">IEEE Xplore</a> | <a href="https://github.com/RobustFieldAutonomyLab/Multi-Robot-EM-Exploration" 
     target="_blank">Github</a></p>
     <li style="margin: 0;">Multi-robot exploration under localization uncertainty</li>
@@ -100,7 +118,7 @@ A central question I address is:
  <div style="display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.5rem;">
   <!-- Paper image -->
   <img src="{{ '/assets/images/mgpmp.jpeg' | relative_url }}" 
-       alt="DRACo-SLAM2" 
+       alt="MGPMP" 
        style="width:180px;"/>
         <!-- Paper description -->
   <div>
@@ -147,6 +165,7 @@ manned Surface Vehicles," <span style="font-style: italic;">IEEE International C
 "Vision-based semantic mapping and localization for autonomous indoor parking," <span style="font-style: italic;">IEEE Intelligent Vehicles Symposium (IV)</span>, pp. 636-641, June 2018. (<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8500516">Link to IEEExplore</a>)</p>
 
 <p><strong>Other Publications</strong></p>
+
 <p>K. Doherty, A. Papalia, Y. Huang, D. Rosen, B. Englot, J. Leonard" MAC: Maximizing Algebraic Connectivity for Graph Sparsification," Work-In-Progress Paper. (<a href="https://openreview.net/forum?id=2qHgygelK8">Link to arXiv preprint</a>)</p>
 <p>Y. Huang, X. Lin, and B. Englot, "Multi-Robot Autonomous Exploration and Mapping Under Localization Uncertainty via Reinforcement Learning on Graphs," Work-In-Progress Paper, <span style="font-style: italic;">Proceedings of the 21st International Conference on Ubiquitous Robots</span>, pp. 836-839, June 2024. (<a href="https://robustfieldautonomylab.github.io/WI5A.22.pdf">Full Text</a>)</p>
 <p>Y. Huang and B. Englot, “Multi-Robot Autonomous Exploration and Mapping Under Localization Uncertainty with Expectation-Maximization,” <span style="font-style: italic;">IEEE IROS 2023 Workshop on Closing the Loop on Localization</span>, 4 pp., October 2023. (<a href="https://robustfieldautonomylab.github.io/Huang_Englot_IROS_2023_LocalizationWorkshop.pdf">Full Text</a>)</p>
@@ -158,7 +177,7 @@ manned Surface Vehicles," <span style="font-style: italic;">IEEE International C
 <p><strong>Thesis</strong></p>
 <p>Y. Huang, <span style="font-style: italic;">Inference with Factor Graphs for Single and Multi-Robot Perception and Navigation</span>, Ph.D. Thesis, Stevens Institute of Technology, May 2025. (<a href="https://robustfieldautonomylab.github.io/Huang_PhD_Thesis_2025.pdf">Full Text</a>)</p>   
 
-# Robots
+# 🤖Robots
 
 In recent years, I have had the honor of working with the following robots:
 <!-- Robots in one line -->
