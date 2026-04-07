@@ -47,7 +47,7 @@ A central question I address is:
        style="width:180px;"/>
         <!-- Paper description -->
   <div>
-    <p style="margin: 0;"><strong>Communication Efficient Scene Graph SLAM</strong></p>
+    <p style="margin: 0;"><strong>SGM-SLAM: Scene Graph Matching for Data-Efficient Distributed SLAM</strong></p>
     <p style="margin: 0;">Under Review</p>
     <p style="margin: 0;">Available at <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6537221" 
     target="_blank">SSRN</a></p>
