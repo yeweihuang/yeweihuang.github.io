@@ -49,8 +49,8 @@ A central question I address is:
   <div>
     <p style="margin: 0;"><strong>Communication Efficient Scene Graph SLAM</strong></p>
     <p style="margin: 0;">Under Review</p>
-    <!-- <p style="margin: 0;">Available at <a href="https://arxiv.org/pdf/2507.23629"  -->
-    <!-- target="_blank">arXiv</a></p> -->
+    <p style="margin: 0;">Available at <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6537221" 
+    target="_blank">SSRN</a></p>
     <li style="margin: 0;">Object graph matching for data efficient communication</li>
     <li style="margin: 0;">Robust against view changes and occlusions</li>
   </div>
