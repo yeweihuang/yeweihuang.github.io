@@ -219,7 +219,7 @@ In recent years, I have had the honor of working with the following robots:
     <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
       <img src="/assets/images/blueboat1.jpg" alt="Blueboat 1" style="height: 250px; border-radius: 0;">
       <img src="/assets/images/blueboat2.jpg" alt="Blueboat 2" style="height: 250px; border-radius: 0;">
-      <img src="/assets/images/pinkboat.jpg" alt="Pinkboat" style="height: 250px; border-radius: 0;">
+      <img src="/assets/images/pinkboat.jpg" alt="Pinkboat" style="height: 444px; border-radius: 0;">
     </div>
   </div>
 
