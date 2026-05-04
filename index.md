@@ -135,6 +135,10 @@ A central question I address is:
 
 # 📚Publications
 <p><strong>Refereed Conference and Journal Publications</strong></p>
+<p><strong>2026</strong></p>
+<p>Y. Li, Y. Huang, W. Gaozhang, A. Quattrini Li, B. Englot, and Y. Liu, "Variable-Resolution Virtual Maps for Autonomous Exploration with Unmanned Surface Vehicles (USVs)," <span style="font-style: italic;">Submitted, under review</span>, 2026. (<a href="https://arxiv.org/abs/2603.22667">Link to arXiv preprint</a>)</p>
+<p>J. McConnell, Y. Huang, T. Morris, J. Doughty, and D. Moynihan, "Multi-session SLAM for Imaging Sonar Equipped Underwater Vehicles Using Semantic Scene Graphs," <span style="font-style: italic;">Submitted, under review</span>, 2026.</p>
+<p>C. Burgul, Y. Huang, M. Chatzispyrou, I. Rekleitis, A. Quattrini Li, and M. Xanthidis, "Underwater Dense Mapping with the First Compact 3D Sonar," <span style="font-style: italic;">IEEE International Conference on Robotics and Automation (ICRA)</span>, 2026. (<a href="https://arxiv.org/html/2510.18991v1">Link to arXiv preprint</a>)</p>
 <p><strong>2025</strong></p>
 <p>Y. Huang, J. McConnell, X. Lin, and B. Englot, "DRACo-SLAM2: Distributed Robust Acoustic Communication-efficient SLAM for Imaging Sonar Equipped Underwater Robot Teams with Object Graph Matching," <span style="font-style: italic;">IEEE/RSJ International Conference on Intelligent Robots and Systems</span>, October 2025. (<a href="https://arxiv.org/abs/2507.23629">Link to arXiv preprint</a>, <a href="https://robustfieldautonomylab.github.io/Huang_IROS_2025_Video.mp4">Video Attachment</a>, <a href="https://github.com/RobustFieldAutonomyLab/DRACO-SLAM2">Code Release</a>)</p>
 <p>Y. Li, Y. Huang, B. Gaudel, H. Jafarnejadsani, and B. Englot, "CVD-SfM: A Cross-View Deep Front-end Structure-from-Motion System for Sparse Localization in Multi-Altitude Scenes," <span style="font-style: italic;">IEEE/RSJ International Conference on Intelligent Robots and Systems</span>, October 2025. (<a href="https://arxiv.org/abs/2508.01936">Link to arXiv preprint</a>, <a href="https://robustfieldautonomylab.github.io/Li_IROS_2025_Video.mp4">Video Attachment</a>, <a href="https://github.com/RobustFieldAutonomyLab/CVD-SfM">Code Release</a>)</p>
@@ -177,6 +181,15 @@ manned Surface Vehicles," <span style="font-style: italic;">IEEE International C
 
 <p><strong>Thesis</strong></p>
 <p>Y. Huang, <span style="font-style: italic;">Inference with Factor Graphs for Single and Multi-Robot Perception and Navigation</span>, Ph.D. Thesis, Stevens Institute of Technology, May 2025. (<a href="https://robustfieldautonomylab.github.io/Huang_PhD_Thesis_2025.pdf">Full Text</a>)</p>   
+
+# 🏆Awards and Honors
+<ul>
+  <li>Honorable Mention for the inaugural IEEE RAS Women in Engineering Best PhD Award in Robotics and Automation (2026)</li>
+  <li>Maryland Robotics Center: Future Leaders in Robotics and AI of 2025</li>
+  <li>Academic Year 2024-2025 Paul Kaplan Award for Distinguished Doctoral Work upon Graduation</li>
+  <li>Academic Year 2024-2025 Stevens Excellence Doctoral Fellowship</li>
+  <li>Academic Year 2019-2020 Stevens Provost Doctoral Fellowship</li>
+</ul>
 
 # 🤖Robots
 
@@ -224,5 +237,3 @@ In recent years, I have had the honor of working with the following robots:
   </div>
 
 </div>
-
-
