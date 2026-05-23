@@ -199,7 +199,7 @@ In recent years, I have had the honor of working with the following robots:
 <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; text-align: center;">
 
   <!-- Jackal block -->
-  <div style="margin-bottom: 1.5rem;">
+  <div id="jackal" style="margin-bottom: 1.5rem;">
     <p style="font-weight: bold; font-size: 1.1rem;">Clearpath Jackal</p>
     <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
       <img src="/assets/images/jackal1.jpg" alt="Jackal 1" style="height: 250px; border-radius: 0;">
@@ -208,7 +208,7 @@ In recent years, I have had the honor of working with the following robots:
   </div>
 
   <!-- Unitree block -->
-  <div style="margin-bottom: 1.5rem;">
+  <div id="go" style="margin-bottom: 1.5rem;">
     <p style="font-weight: bold; font-size: 1.1rem;">Unitree Go2</p>
     <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
       <img src="/assets/images/unitree1.jpg" alt="Unitree 1" style="height: 250px; border-radius: 0;">
@@ -216,7 +216,7 @@ In recent years, I have had the honor of working with the following robots:
   </div>
 
   <!-- bluerov block -->
-  <div style="margin-bottom: 1.5rem;">
+  <div id="bluerov" style="margin-bottom: 1.5rem;">
     <p style="font-weight: bold; font-size: 1.1rem;">Blue Robotics BlueRov2</p>
     <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
       <!-- <img src="/assets/images/bluerov1.jpeg" alt="BlueRov2 1" style="width: 300px; border-radius: 0;"> -->
@@ -228,7 +228,7 @@ In recent years, I have had the honor of working with the following robots:
   </div>
 
   <!-- blueboat block -->
-  <div style="margin-bottom: 1.5rem;">
+  <div id="blueboat" style="margin-bottom: 1.5rem;">
     <p style="font-weight: bold; font-size: 1.1rem;">Blue Robotics Blueboat</p>
     <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
       <img src="/assets/images/blueboat1.jpg" alt="Blueboat 1" style="height: 250px; border-radius: 0;">
