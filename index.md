@@ -218,11 +218,15 @@ In recent years, I have had the honor of working with the following robots:
   <!-- bluerov block -->
   <div id="bluerov" style="margin-bottom: 1.5rem;">
     <p style="font-weight: bold; font-size: 1.1rem;">Blue Robotics BlueRov2</p>
-    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
       <!-- <img src="/assets/images/bluerov1.jpeg" alt="BlueRov2 1" style="width: 300px; border-radius: 0;"> -->
-      <img src="/assets/images/bluerov3.jpg" alt="BlueRov2 3" style="height: 250px; border-radius: 0;">
-      <img src="/assets/images/bluerov5.jpg" alt="BlueRov2 5" style="height: 444px; border-radius: 0;">
-      <img src="/assets/images/bluerov6.jpg" alt="BlueRov2 6" style="height: 444px; border-radius: 0;">
+      <div style="display: flex; justify-content: center;">
+        <img src="/assets/images/bluerov3.jpg" alt="BlueRov2 3" style="height: 250px; border-radius: 0;">
+      </div>
+      <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+        <img src="/assets/images/bluerov5.jpg" alt="BlueRov2 5" style="height: 444px; border-radius: 0;">
+        <img src="/assets/images/bluerov6.jpg" alt="BlueRov2 6" style="height: 444px; border-radius: 0;">
+      </div>
     </div>
   </div>
 
