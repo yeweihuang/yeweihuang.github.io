@@ -49,8 +49,8 @@ A central question I address is:
   <div>
     <p style="margin: 0;"><strong>SGM-SLAM: Scene Graph Matching for Data-Efficient Distributed SLAM</strong></p>
     <p style="margin: 0;">Under Review</p>
-    <p style="margin: 0;">Available at <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6537221" 
-    target="_blank">SSRN</a></p>
+    <p style="margin: 0;">Available at <a href="http://arxiv.org/abs/2606.16881" 
+    target="_blank">arXiv</a></p>
     <li style="margin: 0;">Object graph matching for data efficient communication</li>
     <li style="margin: 0;">Robust against view changes and occlusions</li>
   </div>
@@ -140,7 +140,7 @@ A central question I address is:
 <p>J. McConnell, Y. Huang, T. Morris, J. Doughty, and D. Moynihan, "Multi-session SLAM for Imaging Sonar Equipped Underwater Vehicles Using Semantic Scene Graphs," <span style="font-style: italic;">IEEE Robotics and Automation Letters</span>, 2026.</p>
 <p>C. Burgul, Y. Huang, M. Chatzispyrou, I. Rekleitis, A. Quattrini Li, and M. Xanthidis, "Underwater Dense Mapping with the First Compact 3D Sonar," <span style="font-style: italic;">IEEE International Conference on Robotics and Automation (ICRA)</span>, 2026. (<a href="https://arxiv.org/html/2510.18991v1">Link to arXiv preprint</a>)</p>
 <p><strong>2025</strong></p>
-<p>Y. Huang, T. Shan, A. Rajvanshi, N. Chowdhury, Y. Li, B. Englot, and H.-P. Chiu, "SGM-SLAM: Scene Graph Matching for Data-Efficient Distributed SLAM," <span style="font-style: italic;">Submitted, under review</span>, 2025. (<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6537221">Link to SSRN preprint</a>)</p>
+<p>Y. Huang, T. Shan, A. Rajvanshi, N. Chowdhury, Y. Li, B. Englot, and H.-P. Chiu, "SGM-SLAM: Scene Graph Matching for Data-Efficient Distributed SLAM," <span style="font-style: italic;">Submitted, under review</span>, 2025. (<a href="http://arxiv.org/abs/2606.16881">Link to arXiv preprint</a>)</p>
 <p>Y. Huang, J. McConnell, X. Lin, and B. Englot, "DRACo-SLAM2: Distributed Robust Acoustic Communication-efficient SLAM for Imaging Sonar Equipped Underwater Robot Teams with Object Graph Matching," <span style="font-style: italic;">IEEE/RSJ International Conference on Intelligent Robots and Systems</span>, October 2025. (<a href="https://arxiv.org/abs/2507.23629">Link to arXiv preprint</a>, <a href="https://robustfieldautonomylab.github.io/Huang_IROS_2025_Video.mp4">Video Attachment</a>, <a href="https://github.com/RobustFieldAutonomyLab/DRACO-SLAM2">Code Release</a>)</p>
 <p>Y. Li, Y. Huang, B. Gaudel, H. Jafarnejadsani, and B. Englot, "CVD-SfM: A Cross-View Deep Front-end Structure-from-Motion System for Sparse Localization in Multi-Altitude Scenes," <span style="font-style: italic;">IEEE/RSJ International Conference on Intelligent Robots and Systems</span>, October 2025. (<a href="https://arxiv.org/abs/2508.01936">Link to arXiv preprint</a>, <a href="https://robustfieldautonomylab.github.io/Li_IROS_2025_Video.mp4">Video Attachment</a>, <a href="https://github.com/RobustFieldAutonomyLab/CVD-SfM">Code Release</a>)</p>
 <p>Y. Li, Y. Huang, W. Gaozhang, and Y. Liu, "Autonomous Exploration with Virtual Map using Un-
