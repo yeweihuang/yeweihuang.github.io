@@ -1,127 +1,14 @@
-<header class="header-row">
-  <div class="container">
-    <div class="header-left"> </div>
-    <ul class="header-right">
-      <li><a href="{{ site.baseurl }}/index">About</a></li>
-      <li><a href="{{ site.baseurl }}/cv">CV</a></li>
-      <li><a href="{{ site.baseurl }}/#research">Research</a></li>
-      <li><a href="{{ site.baseurl }}/#publications">Publications</a></li>
-      <li><a href="{{ site.baseurl }}/#robots">Robots</a></li>
-      <!-- Shark Icon -->
-      <li><span class="shark-icon" onclick="popSharks()">🦈</span></li>
-    </ul>
+<header class="site-header">
+  <div class="nav-wrap wrap">
+    <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="Yewei Huang home"><span class="brand-mark" aria-hidden="true">yh.</span><span>Yewei Huang</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" hidden>Menu <span aria-hidden="true">+</span></button>
+    <nav id="primary-navigation" class="site-nav" aria-label="Main navigation">
+      <a href="{{ '/#research' | relative_url }}">Research</a>
+      <a href="{{ '/#robots' | relative_url }}">Robots</a>
+      <a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} aria-current="page"{% endif %}>Publications</a>
+      <a href="{{ '/#about' | relative_url }}">About</a>
+      <a href="{{ '/cv.html' | relative_url }}"{% if page.title == 'CV' %} aria-current="page"{% endif %}>CV <span aria-hidden="true">↗</span></a>
+    </nav>
+    <button class="shark-button" type="button" aria-label="Release a few sharks" title="A little love for sharks" hidden>🦈</button>
   </div>
 </header>
-
-<style>
-.header-row {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #000000;
-  padding: 4px 0;
-  border-bottom: .5px solid #000000;
-  z-index: 1000;
-}
-
-.header-row .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 2rem;
-}
-
-.header-left {
-  font-weight: bold;
-  color: #f8f9fa;
-}
-
-.header-right {
-  list-style: none;
-  align-items: center;   
-  display: flex;
-  gap: 20px;
-  margin: 0;
-  padding: 0;
-}
-
-.header-right li a {
-  text-decoration: none;
-  color: #f8f9fa;
-  font-weight: normal;
-}
-
-.header-right li a:hover {
-  text-decoration: underline;
-}
-
-.shark-icon {
-  cursor: pointer;
-  font-size: 24px;
-  transition: transform 0.2s;
-}
-.shark-icon:hover {
-  transform: scale(1.2);
-}
-
-/* Shark popup */
-.shark {
-  position: fixed;
-  top: -150px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 100px;
-  opacity: 0;
-  animation: popDown 2s ease-out forwards;
-}
-
-@keyframes popDown {
-  0%   { top: 0px; opacity: 0; }
-  40%  { top: 150px; opacity: 1; }   /* when shark appears */
-  70%  { top: 300px; }               /* mid swim down */
-  100% { top: 450px; opacity: 0; }   /* final deeper position */
-}
-
-body {
-  padding-top: 60px;
-}
-</style>
-
-<script>
-function popShark() {
-  const shark = document.createElement("div");
-  shark.className = "shark";
-  shark.textContent = "🦈";
-  document.body.appendChild(shark);
-
-  setTimeout(() => shark.remove(), 2000); // remove after animation
-}
-
-function popSharks() {
-  const sharkCount = 15; // how many sharks to release per click
-  for (let i = 0; i < sharkCount; i++) {
-    const shark = document.createElement("div");
-    shark.className = "shark";
-    shark.textContent = "🦈";
-
-    // Random horizontal position
-    const offset = Math.random() * window.innerWidth;
-    shark.style.left = offset + "px";
-
-    // Random size
-    const size = 60 + Math.random() * 60; // 60px – 120px
-    shark.style.fontSize = size + "px";
-
-    // Random delay so they don’t all pop at once
-    shark.style.animationDelay = (Math.random() * 0.8) + "s";
-
-    document.body.appendChild(shark);
-
-    setTimeout(() => shark.remove(), 3000); // remove after animation
-  }
-}
-
-</script>

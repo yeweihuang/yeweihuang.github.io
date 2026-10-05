@@ -1,254 +1,109 @@
 ---
-layout: page
+layout: default
 title: Yewei Huang
 permalink: /
+page_class: home
+image: /assets/images/web/blueboat1.jpg
 ---
-<img src="{{ '/assets/images/yeweihuang.JPG' | relative_url }}" 
-     alt="Yewei Huang" 
-     style="float: right; width:300px; border-radius:50%; margin-left: 1rem; margin-bottom: 0.5rem;"/>
-
-I am Yewei Huang, and my research focuses on the autonomous decision-making and perception challenges of robots. I have a special passion for **marine environments**—fueled by my love of sharks 🦈—and I am particularly interested in deploying **autonomous** algorithms for underwater and offshore applications.
-
-I am currently a postdoctoral researcher in the [Reality and Robotics Lab](https://rlab.cs.dartmouth.edu/home/) at the Department of Computer Science, Dartmouth College, advised by Prof. [Alberto Quattrini Li](https://rlab.cs.dartmouth.edu/albertoq/). I received my Ph.D. in Mechanical Engineering from Stevens Institute of Technology advised by Prof. [Brendan Englot](https://robustfieldautonomylab.github.io/). I hold a Master’s degree in Surveying Engineering and a Bachelor’s degree in Geo-Information Systems, both from Tongji University in Shanghai, China, where I was advised by Prof. Tiantian Fen and Prof. [Junqiao Zhao](http://cs1.tongji.edu.cn/~junqiao/).
-
-By combining my background in robotics and geo-information science, my long-term goal is to enable fully autonomous robots that can support the maintenance of underwater infrastructures and monitor the complex hydrodynamic and environmental conditions of offshore ecosystems.
-
-# 🔍Research
-
-My research focuses on autonomous perception, mapping, and decision-making for mobile robots. 
-A central question I address is: 
-
-**“How can multiple robots operate effectively and efficiently under limited communication bandwidth?”**
-
- My focus area include: 
- - **Communication Efficient Multi-robot SLAM** 
-
-<div style="display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.5rem;">
-  <!-- Paper image -->
-  <img src="{{ '/assets/images/DRACo-SLAM2.jpg' | relative_url }}" 
-       alt="DRACo-SLAM2" 
-       style="width:180px;"/>
-        <!-- Paper description -->
-  <div>
-    <p style="margin: 0;"><strong>DRACo-SLAM2: Distributed Robust Acoustic Communication-efficient SLAM for Imaging Sonar Equipped Underwater Robot Teams with Object Graph Matching</strong></p>
-    <p style="margin: 0;">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025)</p>
-    <p style="margin: 0;">Available at <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11246631" 
-    target="_blank">IEEE Xplore</a> | <a href="https://github.com/RobustFieldAutonomyLab/DRACO-SLAM2" 
-    target="_blank">Github</a></p>
-    <li style="margin: 0;">Object map for data efficient communication</li>
-    <li style="margin: 0;">Groupwise consistency for outlier detection</li>
-  </div>
-</div>
-
-<div style="display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.5rem;">
-  <!-- Paper image -->
-  <img src="{{ '/assets/images/SGM-SLAM.jpg' | relative_url }}" 
-       alt="SGM-SLAM" 
-       style="width:180px;"/>
-        <!-- Paper description -->
-  <div>
-    <p style="margin: 0;"><strong>SGM-SLAM: Scene Graph Matching for Data-Efficient Distributed SLAM</strong></p>
-    <p style="margin: 0;">Under Review</p>
-    <p style="margin: 0;">Available at <a href="http://arxiv.org/abs/2606.16881" 
-    target="_blank">arXiv</a></p>
-    <li style="margin: 0;">Object graph matching for data efficient communication</li>
-    <li style="margin: 0;">Robust against view changes and occlusions</li>
-  </div>
-</div>
-
-<div style="display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.5rem;">
-  <!-- Paper image -->
-  <img src="{{ '/assets/images/DiSCo-SLAM.jpg' | relative_url }}" 
-       alt="Disco-SLAM" 
-       style="width:180px;"/>
-
-      <!-- Paper description -->
-  <div>
-    <p style="margin: 0;"><strong>Disco-SLAM: Distributed scan context-enabled multi-robot LiDAR SLAM with two-stage global-local graph optimization</strong></p>
-    <p style="margin: 0;">IEEE Robotics and Automation Letters 2022</p>
-    <p style="margin: 0;">Available at <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9662965" 
-    target="_blank">IEEE Xplore</a> | <a href="https://github.com/RobustFieldAutonomyLab/DiSCo-SLAM" 
-    target="_blank">Github</a></p>
-    <li style="margin: 0;">Compact descriptor for data efficient communication</li>
-    <li style="margin: 0;">Global and local pose graph optimization</li>
-  </div>
-
-</div>
-
- - **Reliable and Efficient Robot Exploration** 
-
-
-<div style="display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.5rem;">
-  <!-- Paper image -->
-  <img src="{{ '/assets/images/large_scene.jpg' | relative_url }}" 
-       alt="VRVM" 
-       style="width:180px;"/>
-        <!-- Paper description -->
-  <div>
-    <p style="margin: 0;"><strong>Variable-Resolution Virtual Maps for Autonomous Exploration with Unmanned Surface Vehicles (USVs)</strong></p>
-    <p style="margin: 0;">Under Review</p>
-    <p style="margin: 0;">Available at <a href="https://arxiv.org/abs/2603.22667" 
-    target="_blank">arXiv</a> 
-    <!-- | <a href="https://github.com/RobustFieldAutonomyLab/Multi-Robot-EM-Exploration"  -->
-    <!-- target="_blank">Github</a>-->
-    </p> 
-    <li style="margin: 0;">Uncertainty-aware exploration for Unmanned Surface Vehicles (USVs)</li>
-    <li style="margin: 0;">Quadtree-based mapping for uneven offshore environments</li>
-  </div>
-</div>
-
-<div style="display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.5rem;">
-  <!-- Paper image -->
-  <img src="{{ '/assets/images/multi_em.jpeg' | relative_url }}" 
-       alt="multi-VM" 
-       style="width:180px;"/>
-        <!-- Paper description -->
-  <div>
-    <p style="margin: 0;"><strong>Multi-Robot Autonomous Exploration and Mapping Under Localization Uncertainty with Expectation-Maximization</strong></p>
-    <p style="margin: 0;">IEEE International Conference on Robotics and Automation (ICRA 2024)</p>
-    <p style="margin: 0;">Available at <a href="https://ieeexplore.ieee.org/document/10611495" 
-    target="_blank">IEEE Xplore</a> | <a href="https://github.com/RobustFieldAutonomyLab/Multi-Robot-EM-Exploration" 
-    target="_blank">Github</a></p>
-    <li style="margin: 0;">Multi-robot exploration under localization uncertainty</li>
-    <li style="margin: 0;">A balance between exploration efficiency and localization accuracy</li>
-  </div>
-</div>
-
- - **Planning and decision making in hydrodynamic environments**
-
- <div style="display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.5rem;">
-  <!-- Paper image -->
-  <img src="{{ '/assets/images/mgpmp.jpeg' | relative_url }}" 
-       alt="MGPMP" 
-       style="width:180px;"/>
-        <!-- Paper description -->
-  <div>
-    <p style="margin: 0;"><strong>Mission-Oriented Gaussian Process Motion Planning for UUVs Over Complex Seafloor Terrain and Current Flows</strong></p>
-    <p style="margin: 0;">IEEE Robotics and Automation Letters 2024</p>
-    <p style="margin: 0;">Available at <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10380691" 
-    target="_blank">IEEE Xplore</a> | <a href="https://github.com/RobustFieldAutonomyLab/Mission-Oriented-GP-Motion-Planning" 
-    target="_blank">Github</a></p>
-    <li style="margin: 0;">Mission-oriented Gaussian process motion planning</li>
-    <li style="margin: 0;">Path planning under oceanic current</li>
-  </div>
-</div>
-
-# 📚Publications
-<p><strong>Refereed Conference and Journal Publications</strong></p>
-<p><strong>2026</strong></p>
-<p>C. Burgul, X. Zhao, Y. Huang, M. Chatzispyrou, A. Quattrini Li, and I. Rekleitis, "SVIn+: Multi-Modal Framework for Robust Underwater State Estimation using 3D Sonar, Visual-Inertial, Water-Pressure, and DVL," <span style="font-style: italic;">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</span>, 2026.</p>
-<p>Y. Jiang, Y. Huang, W. Cao, M. Jeong, A. Quattrini Li, L. Zhao, M. Chen, and D. Balkcom, "Manipulider: A Multi-Engine Buoyancy-Controlled Robot for Thrusterless Underwater Gliding and Manipulation," <span style="font-style: italic;">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</span>, 2026.</p>
-<p>S. Ma, Y. Wang, Y. Huang, R. Bucknall, and Y. Liu, "Active Tracking of Marine Pollution Sources: An Uncertainty-Aware Categorical Bayesian Framework for Unmanned Surface Vehicles," <span style="font-style: italic;">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</span>, 2026.</p>
-<p>Y. Li, Y. Huang, W. Gaozhang, A. Quattrini Li, B. Englot, and Y. Liu, "Variable-Resolution Virtual Maps for Autonomous Exploration with Unmanned Surface Vehicles (USVs)," <span style="font-style: italic;">Submitted, under review</span>, 2026. (<a href="https://arxiv.org/abs/2603.22667">Link to arXiv preprint</a>)</p>
-<p>J. McConnell, Y. Huang, T. Morris, J. Doughty, and D. Moynihan, "Multi-session SLAM for Imaging Sonar Equipped Underwater Vehicles Using Semantic Scene Graphs," <span style="font-style: italic;">IEEE Robotics and Automation Letters</span>, 2026.</p>
-<p>C. Burgul, Y. Huang, M. Chatzispyrou, I. Rekleitis, A. Quattrini Li, and M. Xanthidis, "Underwater Dense Mapping with the First Compact 3D Sonar," <span style="font-style: italic;">IEEE International Conference on Robotics and Automation (ICRA)</span>, 2026. (<a href="https://arxiv.org/html/2510.18991v1">Link to arXiv preprint</a>)</p>
-<p><strong>2025</strong></p>
-<p>Y. Huang, T. Shan, A. Rajvanshi, N. Chowdhury, Y. Li, B. Englot, and H.-P. Chiu, "SGM-SLAM: Scene Graph Matching for Data-Efficient Distributed SLAM," <span style="font-style: italic;">Submitted, under review</span>, 2025. (<a href="http://arxiv.org/abs/2606.16881">Link to arXiv preprint</a>)</p>
-<p>Y. Huang, J. McConnell, X. Lin, and B. Englot, "DRACo-SLAM2: Distributed Robust Acoustic Communication-efficient SLAM for Imaging Sonar Equipped Underwater Robot Teams with Object Graph Matching," <span style="font-style: italic;">IEEE/RSJ International Conference on Intelligent Robots and Systems</span>, October 2025. (<a href="https://arxiv.org/abs/2507.23629">Link to arXiv preprint</a>, <a href="https://robustfieldautonomylab.github.io/Huang_IROS_2025_Video.mp4">Video Attachment</a>, <a href="https://github.com/RobustFieldAutonomyLab/DRACO-SLAM2">Code Release</a>)</p>
-<p>Y. Li, Y. Huang, B. Gaudel, H. Jafarnejadsani, and B. Englot, "CVD-SfM: A Cross-View Deep Front-end Structure-from-Motion System for Sparse Localization in Multi-Altitude Scenes," <span style="font-style: italic;">IEEE/RSJ International Conference on Intelligent Robots and Systems</span>, October 2025. (<a href="https://arxiv.org/abs/2508.01936">Link to arXiv preprint</a>, <a href="https://robustfieldautonomylab.github.io/Li_IROS_2025_Video.mp4">Video Attachment</a>, <a href="https://github.com/RobustFieldAutonomyLab/CVD-SfM">Code Release</a>)</p>
-<p>Y. Li, Y. Huang, W. Gaozhang, and Y. Liu, "Autonomous Exploration with Virtual Map using Un-
-manned Surface Vehicles," <span style="font-style: italic;">IEEE International Conference on Automation and Computing
-(ICAC)</span>, pp. 1-7, August 2025. (<a href="[https://ieeexplore.ieee.org/document/10804093](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11196394)">Link to IEEExplore</a>)</p>
-<p>X. Lin, P. Szenher, Y. Huang, and B. Englot, "Distributional Reinforcement Learning based Integrated Decision Making and Control for Autonomous Surface Vehicles," <span style="font-style: italic;">IEEE Robotics and Automation Letters</span>, vol. 10(2), pp. 1194-1201, February 2025. (<a href="https://ieeexplore.ieee.org/document/10804093">Link to IEEExplore</a>, <a href="https://arxiv.org/abs/2412.09466">Link to arXiv preprint</a>, <a href="https://robustfieldautonomylab.github.io/Lin_RA-L_2024_10-FinalVideo.mp4">Video Attachment</a>, <a href="https://github.com/RobustFieldAutonomyLab/Distributional_RL_Decision_and_Control">Code Release</a>)</p>
-<p><strong>2024</strong></p>
-<p>Y. Huang, X. Lin, and B. Englot, "Multi-Robot Autonomous Exploration and Mapping Under Localization Uncertainty with Expectation-Maximization," <span style="font-style: italic;">Proceedings of the IEEE International Conference on Robotics and Automation</span>, pp. 7236-7242, May 2024. (<a href="https://ieeexplore.ieee.org/document/10611495">Link to IEEExplore</a>, <a href="https://arxiv.org/abs/2403.04021">Link to arXiv preprint</a>, <a href="https://robustfieldautonomylab.github.io/Huang_ICRA24_Video.mp4">Video Attachment</a>, <a href="https://github.com/RobustFieldAutonomyLab/Multi-Robot-EM-Exploration">Code Release</a>)</p>
-<p>X. Lin, Y. Huang, F. Chen, and B. Englot, "Decentralized Multi-Robot Navigation for Autonomous Surface Vehicles with Distributional Reinforcement Learning," <span style="font-style: italic;">Proceedings of the IEEE International Conference on Robotics and Automation</span>, pp. 8327-8333, May 2024. (<a href="https://ieeexplore.ieee.org/document/10611668">Link to IEEExplore</a>, <a href="https://arxiv.org/abs/2402.11799">Link to arXiv preprint</a>, <a href="https://robustfieldautonomylab.github.io/Lin_ICRA24_Video.mp4">Video Attachment</a>, <a href="https://github.com/RobustFieldAutonomyLab/Multi_Robot_Distributional_RL_Navigation">Code Release</a>)</p> 
-<p>Y. Huang, X. Lin, M. Hernandez-Rocha, S. Narain, K. Pochiraju, and B. Englot, "Mission-oriented Gaussian Process Motion Planning for UUVs over Complex Seafloor Terrain and Current Flows," <span style="font-style: italic;">IEEE Robotics and Automation Letters</span>, vol. 9(2), pp. 1780-1787, February 2024. (<a href="https://ieeexplore.ieee.org/document/10380691">Link to IEEExplore</a>, <a href="https://robustfieldautonomylab.github.io/Huang_RA-L_2024_Video.mp4">Video Attachment</a>, <a href="https://github.com/RobustFieldAutonomyLab/Mission-Oriented-GP-Motion-Planning">Code Release</a>)</p>
-
-<p><strong>2023</strong></p>
-<p>X. Lin, Y. Huang, D. Sun, T.-Z. Lin, B. Englot, R.M. Eustice, and M. Ghaffari, “A Robust Keyframe-Based Visual SLAM for RGB-D Cameras in Challenging Scenarios,” <span style="font-style: italic;">IEEE Access</span>, vol. 11, pp. 97239-97249, September 2023. (<a href="https://ieeexplore.ieee.org/document/10239392">Link to IEEExplore</a>)</p>
-<p><strong>2022</strong></p>
-<p>J. McConnell, Y. Huang, P. Szenher, I. Collado-Gonzalez, and B. Englot, 
-"DRACo-SLAM: Distributed Robust Acoustic Communication-efficient SLAM for Imaging Sonar Equipped Underwater Robot Teams," <span style="font-style: italic;">Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems</span>, pp. 8457-8464, October 2022. (<a href="https://ieeexplore.ieee.org/document/9981822">Link to IEEExplore</a>, <a href="https://arxiv.org/abs/2210.00867">Link to arXiv preprint</a>, <a href="https://www.youtube.com/watch?v=Jc-uPaiCZtw">Link to Presentation</a>, <a href="https://robustfieldautonomylab.github.io/DRACo-SLAM_VideoAttachment.mp4">Video Attachment</a>, <a href="https://github.com/jake3991/DRACo-SLAM">Code Release</a>)</p>
-<p>J. Wang, F. Chen, Y. Huang, J. McConnell, T. Shan, and B. Englot,
-"Virtual Maps for Autonomous Exploration of Cluttered Underwater Environments," <span style="font-style: italic;">IEEE Journal of Oceanic Engineering</span>, vol. 47(4), pp. 916-935, October 2022. (<a href="https://ieeexplore.ieee.org/document/9806387">Link to IEEExplore</a>, <a href="https://arxiv.org/abs/2202.08359">Link to arXiv preprint</a>, <a href="https://robustfieldautonomylab.github.io/Wang_IEEE_JOE_2022_video.mp4">Video Attachment</a>, <a href="https://github.com/jake3991/sonar-SLAM">Code Release</a>)</p>    
-<p>Y. Huang, T. Shan, F. Chen, and B. Englot,
-"DiSCo-SLAM: Distributed Scan Context-Enabled Multi-Robot LiDAR SLAM with Two-Stage Global-Local Graph Optimization," <span style="font-style: italic;">IEEE Robotics and Automation Letters</span>, vol. 7(2), pp. 1150-1157, April 2022. (<a href="https://ieeexplore.ieee.org/document/9662965">Link to IEEExplore</a>, <a href="https://www.researchgate.net/publication/357319383_DiSCo-SLAM_Distributed_Scan_Context-Enabled_Multi-Robot_LiDAR_SLAM_with_Two-Stage_Global-Local_Graph_Optimization">Link to ResearchGate preprint</a>, <a href="https://robustfieldautonomylab.github.io/DiSCo-SLAM.mp4">Video Attachment</a>, <a href="https://github.com/RobustFieldAutonomyLab/DiSCo-SLAM">Code Release</a>)</p>    
-<p><strong>2021</strong></p>
-<p>F. Chen, P. Szenher, Y. Huang, J. Wang, T. Shan, S. Bai, and B. Englot,
-"Zero-Shot Reinforcement Learning on Graphs for Autonomous Exploration Under Uncertainty," <span style="font-style: italic;">Proceedings of the IEEE International Conference on Robotics and Automation</span>, pp. 5193-5199, June 2021. (<a href="https://ieeexplore.ieee.org/document/9561917">Link to IEEExplore</a>, <a href="https://arxiv.org/abs/2105.04758">Link to arXiv preprint</a>, <a href="https://robustfieldautonomylab.github.io/Chen_ICRA_2021_Presentation.mp4">Link to Presentation</a>, <a href="https://www.youtube.com/watch?v=62phOSf2HEg">Video Attachment</a>)</p>    
-<p>F. Chen, J.D. Martin, Y. Huang, J. Wang, and B. Englot,
-"Autonomous Exploration Under Uncertainty via Deep Reinforcement Learning on Graphs," <span style="font-style: italic;">Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems</span>, pp. 6140-6147, October 2020. (<a href="https://ieeexplore.ieee.org/document/9341657">Link to IEEExplore</a>, <a href="https://arxiv.org/pdf/2007.12640.pdf">Link to arXiv preprint</a>, <a href="https://robustfieldautonomylab.github.io/index_files/Chen_IROS_2020_Presentation.mp4">Link to Presentation</a>, <a href="https://youtu.be/e7uM03hMZRo">Video Attachment</a>)</p>
-<p><strong>2018</strong></p>
-<p>Y. Huang, J. Zhao, X. He, S. Zhang, T. Feng,
-"Vision-based semantic mapping and localization for autonomous indoor parking," <span style="font-style: italic;">IEEE Intelligent Vehicles Symposium (IV)</span>, pp. 636-641, June 2018. (<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8500516">Link to IEEExplore</a>)</p>
-
-<p><strong>Other Publications</strong></p>
-
-<p>K. Doherty, A. Papalia, Y. Huang, D. Rosen, B. Englot, J. Leonard" MAC: Maximizing Algebraic Connectivity for Graph Sparsification," Work-In-Progress Paper. (<a href="https://openreview.net/forum?id=2qHgygelK8">Link to arXiv preprint</a>)</p>
-<p>Y. Huang, X. Lin, and B. Englot, "Multi-Robot Autonomous Exploration and Mapping Under Localization Uncertainty via Reinforcement Learning on Graphs," Work-In-Progress Paper, <span style="font-style: italic;">Proceedings of the 21st International Conference on Ubiquitous Robots</span>, pp. 836-839, June 2024. (<a href="https://robustfieldautonomylab.github.io/WI5A.22.pdf">Full Text</a>)</p>
-<p>Y. Huang and B. Englot, “Multi-Robot Autonomous Exploration and Mapping Under Localization Uncertainty with Expectation-Maximization,” <span style="font-style: italic;">IEEE IROS 2023 Workshop on Closing the Loop on Localization</span>, 4 pp., October 2023. (<a href="https://robustfieldautonomylab.github.io/Huang_Englot_IROS_2023_LocalizationWorkshop.pdf">Full Text</a>)</p>
-<p>J. Wang, F. Chen, Y. Huang, J. McConnell, T. Shan, and B. Englot,
-"Virtual Maps for Autonomous Exploration of Cluttered Underwater Environments," <span style="font-style: italic;">IEEE ICRA 2021 Workshop on Underwater Active Perception</span>, 8 pp., June 2021. (<a href="https://robustfieldautonomylab.github.io/Wang_ICRA_2021_UW_Robotics_Workshop_Paper_v2.pdf">Full Text</a>, <a href="https://robustfieldautonomylab.github.io/Wang_ICRA_2021_UW_Robotics_Workshop_Poster.pdf">Workshop Poster</a>, <a href="https://robustfieldautonomylab.github.io/Wang_ICRA_2021_UW_Robotics_Workshop_Video.mp4">Video Attachment</a>)</p>    
-<p>Y. Huang, H. Wang, K. Zhan, J. Zhao, P. Gui, T. Feng,
-"Image-based localization for indoor environment using mobile phone," <span style="font-style: italic;">The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences</span>, pp. 211-215, June 2015. (<a href="https://isprs-archives.copernicus.org/articles/XL-4-W5/211/2015/isprsarchives-XL-4-W5-211-2015.pdf">Full Text</a>)</p>
-
-<p><strong>Thesis</strong></p>
-<p>Y. Huang, <span style="font-style: italic;">Inference with Factor Graphs for Single and Multi-Robot Perception and Navigation</span>, Ph.D. Thesis, Stevens Institute of Technology, May 2025. (<a href="https://robustfieldautonomylab.github.io/Huang_PhD_Thesis_2025.pdf">Full Text</a>)</p>   
-
-# 🏆Awards and Honors
-<ul>
-  <li>Honorable Mention for the inaugural IEEE RAS Women in Engineering Best PhD Award in Robotics and Automation (2026)</li>
-  <li>Maryland Robotics Center: Future Leaders in Robotics and AI of 2025</li>
-  <li>Academic Year 2024-2025 Paul Kaplan Award for Distinguished Doctoral Work upon Graduation</li>
-  <li>Academic Year 2024-2025 Stevens Excellence Doctoral Fellowship</li>
-  <li>Academic Year 2019-2020 Stevens Provost Doctoral Fellowship</li>
-</ul>
-
-# 🤖Robots
-
-In recent years, I have had the honor of working with the following robots:
-<!-- Robots in one line -->
-<div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; text-align: center;">
-
-  <!-- Jackal block -->
-  <div id="jackal" style="margin-bottom: 1.5rem;">
-    <p style="font-weight: bold; font-size: 1.1rem;">Clearpath Jackal</p>
-    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-      <img src="/assets/images/jackal1.jpg" alt="Jackal 1" style="height: 250px; border-radius: 0;">
-      <img src="/assets/images/jackal2.jpg" alt="Jackal 2" style="height: 250px; border-radius: 0;">
+<section class="hero wrap" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Robotics · Perception · Autonomy</p>
+    <h1 id="hero-title">Yewei<br>Huang<span class="title-dot">.</span></h1>
+    <p class="hero-statement">Autonomous robots for<br><em>complex environments.</em></p>
+    <p class="hero-description">I develop algorithms that help robots perceive, map, and explore the world—with a special focus on marine environments.</p>
+    <div class="hero-profile">
+      <span class="portrait-frame"><img src="{{ '/assets/images/web/yeweihuang.jpg' | relative_url }}" width="600" height="501" alt="Portrait of Yewei Huang"></span>
+      <p>Postdoctoral researcher<span>Computer Science · Dartmouth College</span></p>
     </div>
+    <div class="hero-actions"><a class="button button-primary" href="#research">Explore my research <span aria-hidden="true">↓</span></a><a class="button button-text" href="{{ '/cv.html' | relative_url }}">View CV <span aria-hidden="true">↗</span></a><a class="button button-text" href="#contact">Contact <span aria-hidden="true">↗</span></a></div>
   </div>
+  <figure class="hero-figure">
+    <img src="{{ '/assets/images/web/blueboat1.jpg' | relative_url }}" width="1600" height="1200" alt="Blue Robotics BlueBoat on the water at Stevens Institute of Technology" fetchpriority="high">
+    <figcaption><span class="eyebrow">From algorithms to the water</span><span>BlueBoat · Stevens Institute of Technology</span><a href="#robots" aria-label="Explore the robot gallery">↘</a></figcaption>
+  </figure>
+</section>
 
-  <!-- Unitree block -->
-  <div id="go" style="margin-bottom: 1.5rem;">
-    <p style="font-weight: bold; font-size: 1.1rem;">Unitree Go2</p>
-    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-      <img src="/assets/images/unitree1.jpg" alt="Unitree 1" style="height: 250px; border-radius: 0;">
+<section id="about" class="about-section section wrap" aria-labelledby="about-title">
+  <div class="section-label"><span class="section-number">01 / ABOUT</span><h2 id="about-title">A field perspective.</h2></div>
+  <div class="about-copy">
+    <p class="lead">My research connects autonomous perception, mapping, and decision-making with the challenges of deploying real robots.</p>
+    <p>I am a postdoctoral researcher in the <a href="https://rlab.cs.dartmouth.edu/home/">Reality and Robotics Lab</a> at Dartmouth College, advised by Prof. <a href="https://rlab.cs.dartmouth.edu/albertoq/">Alberto Quattrini Li</a>. I received my Ph.D. in Mechanical Engineering from Stevens Institute of Technology, advised by Prof. <a href="https://robustfieldautonomylab.github.io/">Brendan Englot</a>.</p>
+    <p>My goal is to enable autonomous robots to support underwater infrastructure maintenance and monitor offshore ecosystems. My interest in marine environments also comes with a love of sharks.</p>
+    <details class="background-details"><summary>Education &amp; background <span aria-hidden="true">+</span></summary><p>I hold a master’s degree in Surveying Engineering and a bachelor’s degree in Geo-Information Systems from Tongji University in Shanghai, China, where I was advised by Prof. Tiantian Fen and Prof. <a href="http://cs1.tongji.edu.cn/~junqiao/">Junqiao Zhao</a>.</p></details>
+  </div>
+  <aside class="highlights" aria-labelledby="highlights-title">
+    <p class="eyebrow" id="highlights-title">Recent highlights</p>
+    <div class="highlight"><span>2026 / RECOGNITION</span><p>Honorable Mention, inaugural IEEE RAS Women in Engineering Best PhD Award in Robotics and Automation.</p></div>
+    <div class="highlight"><span>2025 / RECOGNITION</span><p>Maryland Robotics Center’s Future Leaders in Robotics and AI.</p></div>
+    <a class="text-link" href="#awards">All awards &amp; honors <span aria-hidden="true">↗</span></a>
+  </aside>
+</section>
+
+<section id="research" class="research-section section wrap" aria-labelledby="research-title">
+  <div class="section-heading"><div><p class="section-number">02 / RESEARCH</p><h2 id="research-title">Perceive. Explore. Decide.</h2></div><p>How can robots work effectively under uncertainty and limited communication?</p></div>
+  <div class="research-grid">
+    <article class="research-card">
+      <a class="research-image" href="https://arxiv.org/abs/2507.23629" aria-label="Read the DRACo-SLAM2 paper"><img src="{{ '/assets/images/web/DRACo-SLAM2.jpg' | relative_url }}" width="1149" height="1200" loading="lazy" alt="Object graph matching and sonar maps from DRACo-SLAM2"></a>
+      <div class="research-body"><p class="eyebrow">01 / Multi-robot perception</p><h3>Mapping together.<br>Communicating less.</h3><p>DRACo-SLAM2 uses object graph matching to support distributed sonar SLAM with communication-efficient maps.</p><p class="venue">IROS 2025</p><div class="resource-links"><a href="https://arxiv.org/abs/2507.23629">Paper ↗</a><a href="https://github.com/RobustFieldAutonomyLab/DRACO-SLAM2">Code ↗</a><a href="https://robustfieldautonomylab.github.io/Huang_IROS_2025_Video.mp4">Video ↗</a></div></div>
+    </article>
+    <article class="research-card">
+      <a class="research-image" href="https://arxiv.org/abs/2603.22667" aria-label="Read the variable-resolution virtual maps paper"><img src="{{ '/assets/images/web/large_scene.jpg' | relative_url }}" width="1400" height="1022" loading="lazy" alt="Variable-resolution mapping and exploration of a large offshore scene"></a>
+      <div class="research-body"><p class="eyebrow">02 / Autonomous exploration</p><h3>Exploring with<br>uncertainty in mind.</h3><p>Variable-resolution virtual maps guide surface vehicles through uneven offshore environments while accounting for uncertainty.</p><p class="venue">Preprint · Under review</p><div class="resource-links"><a href="https://arxiv.org/abs/2603.22667">Paper ↗</a></div></div>
+    </article>
+    <article class="research-card">
+      <a class="research-image" href="https://ieeexplore.ieee.org/document/10380691" aria-label="Read the mission-oriented Gaussian process motion planning paper"><img src="{{ '/assets/images/web/mgpmp.jpg' | relative_url }}" width="1200" height="951" loading="lazy" alt="Underwater motion planning over seafloor terrain and current flows"></a>
+      <div class="research-body"><p class="eyebrow">03 / Planning &amp; decision-making</p><h3>Planning through<br>ocean currents.</h3><p>Mission-oriented Gaussian process motion planning accounts for complex seafloor terrain and current flows.</p><p class="venue">IEEE Robotics and Automation Letters · 2024</p><div class="resource-links"><a href="https://ieeexplore.ieee.org/document/10380691">Paper ↗</a><a href="https://github.com/RobustFieldAutonomyLab/Mission-Oriented-GP-Motion-Planning">Code ↗</a><a href="https://robustfieldautonomylab.github.io/Huang_RA-L_2024_Video.mp4">Video ↗</a></div></div>
+    </article>
+  </div>
+  <details class="more-research"><summary>More research projects <span>SGM-SLAM · Multi-robot exploration · DiSCo-SLAM</span><span aria-hidden="true">+</span></summary>
+    <div class="additional-projects">
+      <article><img src="{{ '/assets/images/web/SGM-SLAM.jpg' | relative_url }}" width="1200" height="1070" loading="lazy" alt="Scene graph matching for distributed SLAM"><div><h3>SGM-SLAM</h3><p>Scene graph matching for data-efficient distributed SLAM, robust to viewpoint changes and occlusions.</p><p class="venue">Under review</p><div class="resource-links"><a href="https://arxiv.org/abs/2606.16881">Paper ↗</a></div></div></article>
+      <article><img src="{{ '/assets/images/web/multi_em.jpg' | relative_url }}" width="1200" height="966" loading="lazy" alt="Multi-robot exploration under localization uncertainty"><div><h3>Multi-robot exploration</h3><p>Balancing exploration efficiency and localization accuracy with expectation-maximization.</p><p class="venue">ICRA 2024</p><div class="resource-links"><a href="https://arxiv.org/abs/2403.04021">Paper ↗</a><a href="https://github.com/RobustFieldAutonomyLab/Multi-Robot-EM-Exploration">Code ↗</a><a href="https://robustfieldautonomylab.github.io/Huang_ICRA24_Video.mp4">Video ↗</a></div></div></article>
+      <article><img src="{{ '/assets/images/web/DiSCo-SLAM.jpg' | relative_url }}" width="1200" height="951" loading="lazy" alt="Distributed multi-robot LiDAR SLAM"><div><h3>DiSCo-SLAM</h3><p>Distributed scan context-enabled multi-robot LiDAR SLAM with global and local graph optimization.</p><p class="venue">IEEE Robotics and Automation Letters · 2022</p><div class="resource-links"><a href="https://ieeexplore.ieee.org/document/9662965">Paper ↗</a><a href="https://github.com/RobustFieldAutonomyLab/DiSCo-SLAM">Code ↗</a></div></div></article>
     </div>
-  </div>
+  </details>
+</section>
 
-  <!-- bluerov block -->
-  <div id="bluerov" style="margin-bottom: 1.5rem;">
-    <p style="font-weight: bold; font-size: 1.1rem;">Blue Robotics BlueRov2</p>
-    <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
-      <!-- <img src="/assets/images/bluerov1.jpeg" alt="BlueRov2 1" style="width: 300px; border-radius: 0;"> -->
-      <div style="display: flex; justify-content: center;">
-        <img src="/assets/images/bluerov3.jpg" alt="BlueRov2 3" style="height: 250px; border-radius: 0;">
-      </div>
-      <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-        <img src="/assets/images/bluerov5.jpg" alt="BlueRov2 5" style="height: 444px; border-radius: 0;">
-        <img src="/assets/images/bluerov6.jpg" alt="BlueRov2 6" style="height: 444px; border-radius: 0;">
-      </div>
+<section id="robots" class="field-section" aria-labelledby="robots-title">
+  <div class="wrap section">
+    <div class="section-heading"><div><p class="section-number">03 / IN THE FIELD</p><h2 id="robots-title">Robots beyond the screen.</h2></div><p>On the water, underwater, and on land—some of the platforms I have worked with.</p></div>
+    <div class="robot-grid">
+      <figure class="robot-photo robot-feature" id="daughter-boat"><a href="{{ '/assets/images/daughter_boat.jpg' | relative_url }}" aria-label="View full daughter boat photo"><img src="{{ '/assets/images/web/daughter_boat.jpg' | relative_url }}" width="900" height="1200" loading="lazy" alt="Daughter boat floating beside a rocky shoreline"></a><figcaption><span class="eyebrow">On the water</span><h3>Daughter Boat</h3><p>A closer look at field robotics.</p></figcaption></figure>
+      <figure class="robot-photo" id="blueboat"><a href="{{ '/assets/images/blueboat2.jpg' | relative_url }}" aria-label="View full BlueBoat photo"><img src="{{ '/assets/images/web/blueboat2.jpg' | relative_url }}" width="1000" height="750" loading="lazy" alt="Instrumented surface vehicle moving across the water"></a><figcaption><span class="eyebrow">Surface robotics</span><h3>Blue Robotics BlueBoat</h3></figcaption></figure>
+      <figure class="robot-photo" id="bluerov"><a href="{{ '/assets/images/bluerov3.jpg' | relative_url }}" aria-label="View full BlueROV2 photo"><img src="{{ '/assets/images/web/bluerov3.jpg' | relative_url }}" width="1000" height="750" loading="lazy" alt="Blue Robotics BlueROV2 underwater robot"></a><figcaption><span class="eyebrow">Underwater robotics</span><h3>Blue Robotics BlueROV2</h3></figcaption></figure>
+      <figure class="robot-photo" id="jackal"><a href="{{ '/assets/images/jackal2.jpg' | relative_url }}" aria-label="View full Jackal photo"><img src="{{ '/assets/images/web/jackal2.jpg' | relative_url }}" width="900" height="685" loading="lazy" alt="Clearpath Jackal ground robot"></a><figcaption><span class="eyebrow">Ground robotics</span><h3>Clearpath Jackal</h3></figcaption></figure>
+      <figure class="robot-photo" id="go"><a href="{{ '/assets/images/unitree1.jpg' | relative_url }}" aria-label="View full Unitree photo"><img src="{{ '/assets/images/web/unitree1.jpg' | relative_url }}" width="900" height="675" loading="lazy" alt="Unitree Go2 quadruped robot"></a><figcaption><span class="eyebrow">Legged robotics</span><h3>Unitree Go2</h3></figcaption></figure>
     </div>
+    <details class="field-details"><summary>More from the field <span aria-hidden="true">+</span></summary><div class="field-extra">
+      <figure><a href="{{ '/assets/images/pinkboat.jpg' | relative_url }}"><img src="{{ '/assets/images/web/pinkboat.jpg' | relative_url }}" width="750" height="1000" loading="lazy" alt="Pink surface boat"></a><figcaption>Surface robotics</figcaption></figure>
+      <figure><a href="{{ '/assets/images/bluerov5.jpg' | relative_url }}"><img src="{{ '/assets/images/web/bluerov5.jpg' | relative_url }}" width="750" height="1000" loading="lazy" alt="BlueROV2 field deployment"></a><figcaption>BlueROV2 in the field</figcaption></figure>
+      <figure><a href="{{ '/assets/images/bluerov6.jpg' | relative_url }}"><img src="{{ '/assets/images/web/bluerov6.jpg' | relative_url }}" width="750" height="1000" loading="lazy" alt="Another view of a BlueROV2 field deployment"></a><figcaption>Underwater platforms</figcaption></figure>
+      <figure><a href="{{ '/assets/images/jackal1.jpg' | relative_url }}"><img src="{{ '/assets/images/web/jackal1.jpg' | relative_url }}" width="900" height="900" loading="lazy" alt="Clearpath Jackal robot platform"></a><figcaption>Clearpath Jackal</figcaption></figure>
+    </div></details>
   </div>
+</section>
 
-  <!-- blueboat block -->
-  <div id="blueboat" style="margin-bottom: 1.5rem;">
-    <p style="font-weight: bold; font-size: 1.1rem;">Blue Robotics Blueboat</p>
-    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-      <img src="/assets/images/blueboat1.jpg" alt="Blueboat 1" style="height: 250px; border-radius: 0;">
-      <img src="/assets/images/blueboat2.jpg" alt="Blueboat 2" style="height: 250px; border-radius: 0;">
-      <img src="/assets/images/pinkboat.jpg" alt="Pinkboat" style="height: 444px; border-radius: 0;">
-    </div>
-  </div>
+<section id="publications" class="section wrap selected-publications" aria-labelledby="publications-title">
+  <div class="section-heading"><div><p class="section-number">04 / SELECTED PUBLICATIONS</p><h2 id="publications-title">A few recent contributions.</h2></div><a class="text-link" href="{{ '/publications/' | relative_url }}">Full publication list <span aria-hidden="true">↗</span></a></div>
+  <ol class="selected-list">
+    <li><span class="paper-year">2026</span><div><h3>SVIn+: Multi-Modal Framework for Robust Underwater State Estimation using 3D Sonar, Visual-Inertial, Water-Pressure, and DVL</h3><p>C. Burgul, X. Zhao, <strong>Y. Huang</strong>, M. Chatzispyrou, A. Quattrini Li, and I. Rekleitis</p><span class="venue">IEEE/RSJ International Conference on Intelligent Robots and Systems</span></div></li>
+    <li><span class="paper-year">2026</span><div><h3><a href="https://arxiv.org/html/2510.18991v1">Underwater Dense Mapping with the First Compact 3D Sonar <span aria-hidden="true">↗</span></a></h3><p>C. Burgul, <strong>Y. Huang</strong>, M. Chatzispyrou, I. Rekleitis, A. Quattrini Li, and M. Xanthidis</p><span class="venue">IEEE International Conference on Robotics and Automation</span></div></li>
+    <li><span class="paper-year">2025</span><div><h3><a href="https://arxiv.org/abs/2507.23629">DRACo-SLAM2: Distributed Robust Acoustic Communication-efficient SLAM for Imaging Sonar Equipped Underwater Robot Teams with Object Graph Matching <span aria-hidden="true">↗</span></a></h3><p><strong>Y. Huang</strong>, J. McConnell, X. Lin, and B. Englot</p><span class="venue">IEEE/RSJ International Conference on Intelligent Robots and Systems</span></div></li>
+    <li><span class="paper-year">2024</span><div><h3><a href="https://arxiv.org/abs/2403.04021">Multi-Robot Autonomous Exploration and Mapping Under Localization Uncertainty with Expectation-Maximization <span aria-hidden="true">↗</span></a></h3><p><strong>Y. Huang</strong>, X. Lin, and B. Englot</p><span class="venue">IEEE International Conference on Robotics and Automation</span></div></li>
+  </ol>
+</section>
 
-  <!-- Daughter boat block -->
-  <div id="daughter-boat" style="margin-bottom: 1.5rem;">
-    <p style="font-weight: bold; font-size: 1.1rem;">Daughter Boat</p>
-    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-      <img src="{{ '/assets/images/daughter_boat.jpg' | relative_url }}" alt="Daughter boat floating beside a rocky shoreline" loading="lazy" style="width: 333px; max-width: 100%; height: auto; border-radius: 0;">
-    </div>
-  </div>
+<section id="awards" class="awards-section section wrap" aria-labelledby="awards-title">
+  <div class="section-label"><p class="section-number">05 / RECOGNITION</p><h2 id="awards-title">Awards &amp; honors.</h2></div>
+  <ul class="awards-list">
+    <li><span>2026</span><p>Honorable Mention, inaugural IEEE RAS Women in Engineering Best PhD Award in Robotics and Automation</p></li>
+    <li><span>2025</span><p>Maryland Robotics Center: Future Leaders in Robotics and AI</p></li>
+    <li><span>2024–25</span><p>Paul Kaplan Award for Distinguished Doctoral Work upon Graduation</p></li>
+    <li><span>2024–25</span><p>Stevens Excellence Doctoral Fellowship</p></li>
+    <li><span>2019–20</span><p>Stevens Provost Doctoral Fellowship</p></li>
+  </ul>
+</section>
 
-</div>
+<section id="contact" class="contact-section">
+  <div class="wrap contact-inner"><div><p class="eyebrow">Get in touch</p><h2>Let’s talk robotics.</h2><p>For research conversations and collaboration.</p></div><a class="contact-link" href="mailto:{{ site.email }}">{{ site.email }} <span aria-hidden="true">↗</span></a></div>
+</section>
