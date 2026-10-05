@@ -243,4 +243,12 @@ In recent years, I have had the honor of working with the following robots:
     </div>
   </div>
 
+  <!-- Daughter boat block -->
+  <div id="daughter-boat" style="margin-bottom: 1.5rem;">
+    <p style="font-weight: bold; font-size: 1.1rem;">Daughter Boat</p>
+    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+      <img src="{{ '/assets/images/daughter_boat.jpg' | relative_url }}" alt="Daughter boat floating beside a rocky shoreline" loading="lazy" style="width: 333px; max-width: 100%; height: auto; border-radius: 0;">
+    </div>
+  </div>
+
 </div>
