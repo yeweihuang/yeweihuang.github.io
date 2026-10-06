@@ -3,7 +3,7 @@ layout: default
 title: Yewei Huang
 permalink: /
 page_class: home
-image: /assets/images/web/blueboat1.jpg
+image: /assets/images/web/pinkboat-hero.jpg
 ---
 <section class="hero wrap" aria-labelledby="hero-title">
   <div class="hero-copy">
@@ -18,8 +18,8 @@ image: /assets/images/web/blueboat1.jpg
     <div class="hero-actions"><a class="button button-primary" href="#research">Explore my research <span aria-hidden="true">↓</span></a><a class="button button-text" href="{{ '/cv.html' | relative_url }}">View CV <span aria-hidden="true">↗</span></a><a class="button button-text" href="#contact">Contact <span aria-hidden="true">↗</span></a></div>
   </div>
   <figure class="hero-figure">
-    <img src="{{ '/assets/images/web/blueboat1.jpg' | relative_url }}" width="1600" height="1200" alt="Blue Robotics BlueBoat on the water at Stevens Institute of Technology" fetchpriority="high">
-    <figcaption><span class="eyebrow">From algorithms to the water</span><span>BlueBoat · Stevens Institute of Technology</span><a href="#robots" aria-label="Explore the robot gallery">↘</a></figcaption>
+    <img src="{{ '/assets/images/web/pinkboat-hero.jpg' | relative_url }}" width="1200" height="1600" alt="Red surface robot moving across a lake in falling snow" fetchpriority="high">
+    <figcaption><span class="eyebrow">From algorithms to the water</span><span>Surface robotics · Winter fieldwork</span><a href="#robots" aria-label="Explore the robot gallery">↘</a></figcaption>
   </figure>
 </section>
 
@@ -30,6 +30,7 @@ image: /assets/images/web/blueboat1.jpg
     <p>I am a postdoctoral researcher in the <a href="https://rlab.cs.dartmouth.edu/home/">Reality and Robotics Lab</a> at Dartmouth College, advised by Prof. <a href="https://rlab.cs.dartmouth.edu/albertoq/">Alberto Quattrini Li</a>. I received my Ph.D. in Mechanical Engineering from Stevens Institute of Technology, advised by Prof. <a href="https://robustfieldautonomylab.github.io/">Brendan Englot</a>.</p>
     <p>My training began at <strong>Tongji University</strong> in Shanghai, where I earned a master’s degree in Surveying Engineering and a bachelor’s degree in Geo-Information Systems. I was advised by Prof. Tiantian Fen and Prof. <a href="http://cs1.tongji.edu.cn/~junqiao/">Junqiao Zhao</a>.</p>
     <p>My goal is to enable autonomous robots to support underwater infrastructure maintenance and monitor offshore ecosystems. My interest in marine environments also comes with a love of sharks.</p>
+    <p class="collaborator-note"><span class="eyebrow">Lifetime collaborator</span><a href="https://www.pnnl.gov/people/yicheng-huang">Yicheng Huang <span aria-hidden="true">↗</span></a></p>
   </div>
   <aside class="highlights" aria-labelledby="highlights-title">
     <p class="eyebrow" id="highlights-title">Recent highlights</p>
@@ -56,7 +57,7 @@ image: /assets/images/web/blueboat1.jpg
     </article>
     <article class="research-card">
       <a class="research-image" href="https://arxiv.org/abs/2606.16881" aria-label="Read the SGM-SLAM paper"><img src="{{ '/assets/images/web/SGM-SLAM.jpg' | relative_url }}" width="1200" height="1070" loading="lazy" alt="Scene graph matching for distributed SLAM"></a>
-      <div class="research-body"><p class="eyebrow">04 / Multi-robot perception</p><h3>SGM-SLAM</h3><p>Scene graph matching for data-efficient distributed SLAM, robust to viewpoint changes and occlusions.</p><p class="venue">Under review</p><div class="resource-links"><a href="https://arxiv.org/abs/2606.16881">Paper ↗</a></div></div>
+      <div class="research-body"><p class="eyebrow">04 / Multi-robot perception</p><h3>SGM-SLAM</h3><p>Scene graph matching for data-efficient distributed SLAM, robust to viewpoint changes and occlusions.</p><p class="venue">SSRR 2026</p><div class="resource-links"><a href="https://arxiv.org/abs/2606.16881">Paper ↗</a></div></div>
     </article>
     <article class="research-card">
       <a class="research-image" href="https://arxiv.org/abs/2403.04021" aria-label="Read the multi-robot exploration paper"><img src="{{ '/assets/images/web/multi_em.jpg' | relative_url }}" width="1200" height="966" loading="lazy" alt="Multi-robot exploration under localization uncertainty"></a>
@@ -98,8 +99,20 @@ image: /assets/images/web/blueboat1.jpg
   </ol>
 </section>
 
+<section id="talks" class="talks-section section wrap" aria-labelledby="talks-title">
+  <div class="section-heading"><div><p class="section-number">05 / TALKS</p><h2 id="talks-title">Talks &amp; presentations.</h2></div><p>Seminars, invited talks, and classroom presentations.</p></div>
+  <ol class="talks-list">
+    <li><time datetime="2026-09-30">Sep 30, 2026</time><div><p class="eyebrow">Virginia Tech · AOE 4984 Robot Perception</p><h3>Simultaneous Localization and Mapping (SLAM): From Robot Localization to Underwater Mapping</h3></div></li>
+    <li><time datetime="2026-05-08">May 8, 2026</time><div><p class="eyebrow">Dartmouth College · COSC 81/281 Principles of Robot Design and Programming</p><h3>Machine Learning for Visual SLAM from Scene Representation Perspective</h3></div></li>
+    <li><time datetime="2026-04-27">Apr 27, 2026</time><div><p class="eyebrow">Stevens Institute of Technology · ME 656 Autonomous Navigation for Mobile Robots</p><h3>Machine Learning for Visual SLAM from Scene Representation Perspective</h3></div></li>
+    <li><time datetime="2026-02-13">Feb 13, 2026</time><div><p class="eyebrow">University of Connecticut · Environmental Engineering Seminar</p><h3>Reliable Navigation and Mapping in Uncertain Coastal Waters: Towards Trustworthy Marine Autonomy</h3></div></li>
+    <li><time datetime="2025-07-11">Jul 11, 2025</time><div><p class="eyebrow">University College London · Invited talk (virtual)</p><h3>Distributed Robust Acoustic Communication-efficient SLAM for Imaging Sonar Equipped Underwater Robot Teams with Object Graph Matching</h3></div></li>
+    <li><time datetime="2025-03-28">Mar 28, 2025</time><div><p class="eyebrow">Maryland Robotics Center · Future Leaders in Robotics and AI Seminar</p><h3>Data Efficient Localization and Mapping for Distributed Multi-Robot Teams in the Field</h3></div></li>
+  </ol>
+</section>
+
 <section id="awards" class="awards-section section wrap" aria-labelledby="awards-title">
-  <div class="section-label"><p class="section-number">05 / RECOGNITION</p><h2 id="awards-title">Awards &amp; honors.</h2></div>
+  <div class="section-label"><p class="section-number">06 / RECOGNITION</p><h2 id="awards-title">Awards &amp; honors.</h2></div>
   <ul class="awards-list">
     <li><span>2026</span><p>Honorable Mention, inaugural IEEE RAS Women in Engineering Best PhD Award in Robotics and Automation</p></li>
     <li><span>2025</span><p>Maryland Robotics Center: Future Leaders in Robotics and AI</p></li>
