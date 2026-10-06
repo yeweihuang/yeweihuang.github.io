@@ -64,8 +64,8 @@ main { min-height: 65vh; }
 .hero-profile p span { display: block; color: var(--muted); font-size: .73rem; font-weight: 400; }
 .hero-actions { display: flex; gap: 13px; flex-wrap: wrap; margin-top: 28px; align-items: center; }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 20px; min-height: 46px; padding: 12px 19px; text-decoration: none; font-size: .8rem; font-weight: 600; }
-.button-primary { background: var(--accent); color: var(--ink); border: 1px solid var(--accent); }
-.button-primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); color: var(--ink); }
+.button-primary { background: var(--ink); color: var(--paper); border: 1px solid var(--ink); }
+.button-primary:hover { background: var(--accent-strong); border-color: var(--accent-strong); color: var(--paper); }
 .button-text { color: var(--ink); padding-inline: 8px; gap: 10px; }
 .button-text:hover { text-decoration: underline; }
 .hero-figure { position: relative; overflow: hidden; background: var(--wash); min-height: 570px; }
