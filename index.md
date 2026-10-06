@@ -12,7 +12,6 @@ image: /assets/images/web/pinkboat-hero.jpg
     <p class="hero-statement">Autonomous robots for<br><em>complex environments.</em></p>
     <p class="hero-description">I develop algorithms that help robots perceive, map, and explore the world—with a special focus on marine environments.</p>
     <div class="hero-profile">
-      <span class="portrait-frame"><img src="{{ '/assets/images/web/yeweihuang.jpg' | relative_url }}" width="600" height="501" alt="Portrait of Yewei Huang"></span>
       <p>Postdoctoral researcher<span>Computer Science · Dartmouth College</span></p>
     </div>
     <div class="hero-actions"><a class="button button-primary" href="#research">Explore my research <span aria-hidden="true">↓</span></a><a class="button button-text" href="{{ '/cv.html' | relative_url }}">View CV <span aria-hidden="true">↗</span></a><a class="button button-text" href="#contact">Contact <span aria-hidden="true">↗</span></a></div>
@@ -24,13 +23,15 @@ image: /assets/images/web/pinkboat-hero.jpg
 </section>
 
 <section id="about" class="about-section section wrap" aria-labelledby="about-title">
-  <div class="section-label"><span class="section-number">01 / ABOUT</span><h2 id="about-title">A field perspective.</h2></div>
+  <div class="about-profile">
+    <h2 id="about-title" class="section-number">01 / ABOUT</h2>
+    <figure class="about-portrait"><img src="{{ '/assets/images/web/yeweihuang.jpg' | relative_url }}" width="600" height="501" loading="lazy" alt="Yewei Huang smiling while kayaking"></figure>
+  </div>
   <div class="about-copy">
     <p class="lead">My research connects autonomous perception, mapping, and decision-making with the challenges of deploying real robots.</p>
     <p>I am a postdoctoral researcher in the <a href="https://rlab.cs.dartmouth.edu/home/">Reality and Robotics Lab</a> at Dartmouth College, advised by Prof. <a href="https://rlab.cs.dartmouth.edu/albertoq/">Alberto Quattrini Li</a>. I received my Ph.D. in Mechanical Engineering from Stevens Institute of Technology, advised by Prof. <a href="https://robustfieldautonomylab.github.io/">Brendan Englot</a>.</p>
     <p>My training began at <strong>Tongji University</strong> in Shanghai, where I earned a master’s degree in Surveying Engineering and a bachelor’s degree in Geo-Information Systems. I was advised by Prof. Tiantian Fen and Prof. <a href="http://cs1.tongji.edu.cn/~junqiao/">Junqiao Zhao</a>.</p>
-    <p>My goal is to enable autonomous robots to support underwater infrastructure maintenance and monitor offshore ecosystems. My interest in marine environments also comes with a love of sharks.</p>
-    <p class="collaborator-note"><span class="eyebrow">Lifetime collaborator</span><a href="https://www.pnnl.gov/people/yicheng-huang">Yicheng Huang <span aria-hidden="true">↗</span></a></p>
+    <p>My goal is to enable autonomous robots to support underwater infrastructure maintenance and monitor offshore ecosystems. My interest in marine environments also comes with a love of sharks. My husband, <a href="https://www.pnnl.gov/people/yicheng-huang">Yicheng (Bear) Huang</a>, is my lifetime collaborator.</p>
   </div>
   <aside class="highlights" aria-labelledby="highlights-title">
     <p class="eyebrow" id="highlights-title">Recent highlights</p>
