@@ -8,7 +8,7 @@ image: /assets/images/web/blueboat1.jpg
 <section class="hero wrap" aria-labelledby="hero-title">
   <div class="hero-copy">
     <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Robotics · Perception · Autonomy</p>
-    <h1 id="hero-title">Yewei<br>Huang<span class="title-dot">.</span></h1>
+    <h1 id="hero-title">Yewei<br>Huang</h1>
     <p class="hero-statement">Autonomous robots for<br><em>complex environments.</em></p>
     <p class="hero-description">I develop algorithms that help robots perceive, map, and explore the world—with a special focus on marine environments.</p>
     <div class="hero-profile">
@@ -54,14 +54,19 @@ image: /assets/images/web/blueboat1.jpg
       <a class="research-image" href="https://ieeexplore.ieee.org/document/10380691" aria-label="Read the mission-oriented Gaussian process motion planning paper"><img src="{{ '/assets/images/web/mgpmp.jpg' | relative_url }}" width="1200" height="951" loading="lazy" alt="Underwater motion planning over seafloor terrain and current flows"></a>
       <div class="research-body"><p class="eyebrow">03 / Planning &amp; decision-making</p><h3>Planning through<br>ocean currents.</h3><p>Mission-oriented Gaussian process motion planning accounts for complex seafloor terrain and current flows.</p><p class="venue">IEEE Robotics and Automation Letters · 2024</p><div class="resource-links"><a href="https://ieeexplore.ieee.org/document/10380691">Paper ↗</a><a href="https://github.com/RobustFieldAutonomyLab/Mission-Oriented-GP-Motion-Planning">Code ↗</a><a href="https://robustfieldautonomylab.github.io/Huang_RA-L_2024_Video.mp4">Video ↗</a></div></div>
     </article>
+    <article class="research-card">
+      <a class="research-image" href="https://arxiv.org/abs/2606.16881" aria-label="Read the SGM-SLAM paper"><img src="{{ '/assets/images/web/SGM-SLAM.jpg' | relative_url }}" width="1200" height="1070" loading="lazy" alt="Scene graph matching for distributed SLAM"></a>
+      <div class="research-body"><p class="eyebrow">04 / Multi-robot perception</p><h3>SGM-SLAM</h3><p>Scene graph matching for data-efficient distributed SLAM, robust to viewpoint changes and occlusions.</p><p class="venue">Under review</p><div class="resource-links"><a href="https://arxiv.org/abs/2606.16881">Paper ↗</a></div></div>
+    </article>
+    <article class="research-card">
+      <a class="research-image" href="https://arxiv.org/abs/2403.04021" aria-label="Read the multi-robot exploration paper"><img src="{{ '/assets/images/web/multi_em.jpg' | relative_url }}" width="1200" height="966" loading="lazy" alt="Multi-robot exploration under localization uncertainty"></a>
+      <div class="research-body"><p class="eyebrow">05 / Autonomous exploration</p><h3>Multi-robot<br>exploration</h3><p>Balancing exploration efficiency and localization accuracy with expectation-maximization.</p><p class="venue">ICRA 2024</p><div class="resource-links"><a href="https://arxiv.org/abs/2403.04021">Paper ↗</a><a href="https://github.com/RobustFieldAutonomyLab/Multi-Robot-EM-Exploration">Code ↗</a><a href="https://robustfieldautonomylab.github.io/Huang_ICRA24_Video.mp4">Video ↗</a></div></div>
+    </article>
+    <article class="research-card">
+      <a class="research-image" href="https://ieeexplore.ieee.org/document/9662965" aria-label="Read the DiSCo-SLAM paper"><img src="{{ '/assets/images/web/DiSCo-SLAM.jpg' | relative_url }}" width="1200" height="951" loading="lazy" alt="Distributed multi-robot LiDAR SLAM"></a>
+      <div class="research-body"><p class="eyebrow">06 / Multi-robot perception</p><h3>DiSCo-SLAM</h3><p>Distributed scan context-enabled multi-robot LiDAR SLAM with global and local graph optimization.</p><p class="venue">IEEE Robotics and Automation Letters · 2022</p><div class="resource-links"><a href="https://ieeexplore.ieee.org/document/9662965">Paper ↗</a><a href="https://github.com/RobustFieldAutonomyLab/DiSCo-SLAM">Code ↗</a></div></div>
+    </article>
   </div>
-  <details class="more-research"><summary>More research projects <span>SGM-SLAM · Multi-robot exploration · DiSCo-SLAM</span><span aria-hidden="true">+</span></summary>
-    <div class="additional-projects">
-      <article><img src="{{ '/assets/images/web/SGM-SLAM.jpg' | relative_url }}" width="1200" height="1070" loading="lazy" alt="Scene graph matching for distributed SLAM"><div><h3>SGM-SLAM</h3><p>Scene graph matching for data-efficient distributed SLAM, robust to viewpoint changes and occlusions.</p><p class="venue">Under review</p><div class="resource-links"><a href="https://arxiv.org/abs/2606.16881">Paper ↗</a></div></div></article>
-      <article><img src="{{ '/assets/images/web/multi_em.jpg' | relative_url }}" width="1200" height="966" loading="lazy" alt="Multi-robot exploration under localization uncertainty"><div><h3>Multi-robot exploration</h3><p>Balancing exploration efficiency and localization accuracy with expectation-maximization.</p><p class="venue">ICRA 2024</p><div class="resource-links"><a href="https://arxiv.org/abs/2403.04021">Paper ↗</a><a href="https://github.com/RobustFieldAutonomyLab/Multi-Robot-EM-Exploration">Code ↗</a><a href="https://robustfieldautonomylab.github.io/Huang_ICRA24_Video.mp4">Video ↗</a></div></div></article>
-      <article><img src="{{ '/assets/images/web/DiSCo-SLAM.jpg' | relative_url }}" width="1200" height="951" loading="lazy" alt="Distributed multi-robot LiDAR SLAM"><div><h3>DiSCo-SLAM</h3><p>Distributed scan context-enabled multi-robot LiDAR SLAM with global and local graph optimization.</p><p class="venue">IEEE Robotics and Automation Letters · 2022</p><div class="resource-links"><a href="https://ieeexplore.ieee.org/document/9662965">Paper ↗</a><a href="https://github.com/RobustFieldAutonomyLab/DiSCo-SLAM">Code ↗</a></div></div></article>
-    </div>
-  </details>
 </section>
 
 <section id="robots" class="field-section" aria-labelledby="robots-title">

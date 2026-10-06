@@ -40,7 +40,7 @@ main { min-height: 65vh; }
 .site-header { position: sticky; top: 0; z-index: 20; background: rgba(247,247,242,.97); border-bottom: 1px solid var(--line); }
 .nav-wrap { display: flex; gap: 30px; align-items: center; min-height: 82px; }
 .site-brand { display: flex; align-items: center; gap: 12px; color: var(--ink); text-decoration: none; font-size: .85rem; font-weight: 650; white-space: nowrap; }
-.brand-mark { font-family: var(--serif); font-size: 1.9rem; font-weight: 400; letter-spacing: -.12em; padding-right: 4px; }
+.brand-mark { font-family: var(--serif); font-size: 2.6rem; font-weight: 400; line-height: 1; letter-spacing: -.07em; padding-right: 2px; }
 .site-nav { margin-left: auto; display: flex; align-items: center; gap: 30px; }
 .site-nav a { color: var(--text); text-decoration: none; font-size: .8rem; font-weight: 500; padding-block: 10px; }
 .site-nav a:hover, .site-nav a[aria-current] { color: var(--teal); text-decoration: underline; }
@@ -52,7 +52,6 @@ main { min-height: 65vh; }
 .hero .eyebrow { display: flex; align-items: center; gap: 9px; font-size: .67rem; letter-spacing: .13em; }
 .status-dot { display: inline-block; width: 6px; height: 6px; background: var(--teal); border-radius: 50%; flex-shrink: 0; }
 .hero h1 { font-size: clamp(5rem, 7.2vw, 7rem); line-height: .98; margin-top: 25px; }
-.title-dot { color: var(--teal); }
 .hero-statement { font-family: var(--serif); font-size: clamp(1.65rem, 2.25vw, 2.15rem); letter-spacing: -.02em; line-height: 1.28; margin-top: 25px; }
 .hero-statement em { color: var(--teal); font-weight: 400; }
 .hero-description { color: var(--text); font-size: .95rem; line-height: 1.75; max-width: 405px; margin-top: 16px; }
@@ -103,16 +102,6 @@ summary { cursor: pointer; }
 .resource-links { display: flex; flex-wrap: wrap; gap: 17px; margin-top: 16px; }
 .resource-links a { color: var(--teal); text-decoration: none; font-size: .74rem; font-weight: 600; }
 .resource-links a:hover { text-decoration: underline; }
-.more-research { margin-top: 28px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.more-research > summary { font-size: .84rem; padding: 19px 0; }
-.more-research > summary > span:first-child { font-size: .75rem; color: var(--muted); margin-left: 20px; }
-.more-research > summary > span:last-child { float: right; }
-.additional-projects { display: grid; gap: 25px; padding: 15px 0 30px; }
-.additional-projects article { display: grid; grid-template-columns: 185px 1fr; gap: 30px; align-items: center; }
-.additional-projects img { height: 145px; width: 100%; object-fit: contain; background: white; }
-.additional-projects h3 { font-size: 1.2rem; margin-bottom: 8px; }
-.additional-projects p { font-size: .84rem; color: var(--text); }
-.additional-projects .venue { margin-top: 7px; font-size: .73rem; }
 .field-section { background: var(--ink); color: var(--paper); }
 .field-section .section-number { color: #a4d8cc; }
 .field-section .section-heading > p { color: #c0d3d3; }
@@ -232,7 +221,6 @@ summary { cursor: pointer; }
   .research-image { height: auto; min-height: 280px; border-bottom: 0; border-right: 1px solid var(--line); }
   .research-body { padding: 24px; }
   .research-body h3 { font-size: 1.65rem; }
-  .more-research > summary > span:first-child { display: none; }
   .robot-grid { grid-template-columns: 1fr 1fr; }
   .robot-feature { grid-column: span 2; grid-row: auto; display: grid; grid-template-columns: 1.2fr 1fr; align-items: center; gap: 30px; }
   .robot-feature img { height: 370px; }
@@ -248,6 +236,7 @@ summary { cursor: pointer; }
   .wrap { width: calc(100% - 40px); }
   .section { padding-block: 52px; }
   .site-brand { font-size: .78rem; gap: 9px; }
+  .brand-mark { font-size: 2.25rem; }
   .site-nav { flex-wrap: wrap; justify-content: flex-start; gap: 5px 22px; }
   .site-nav a { font-size: .81rem; }
   .hero { display: flex; flex-direction: column; gap: 0; padding-top: 28px; padding-bottom: 40px; }
@@ -285,8 +274,6 @@ summary { cursor: pointer; }
   .research-image { height: 265px; min-height: 0; padding: 18px; border-right: 0; border-bottom: 1px solid var(--line); }
   .research-body { padding: 24px; }
   .research-body h3 { font-size: 1.9rem; }
-  .additional-projects article { grid-template-columns: 1fr; gap: 18px; }
-  .additional-projects img { height: 220px; }
   .robot-grid { gap: 27px 15px; }
   .robot-feature { display: block; }
   .robot-feature img { height: 410px; object-position: center 58%; }
