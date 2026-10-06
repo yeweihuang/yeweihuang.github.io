@@ -28,8 +28,8 @@ image: /assets/images/web/blueboat1.jpg
   <div class="about-copy">
     <p class="lead">My research connects autonomous perception, mapping, and decision-making with the challenges of deploying real robots.</p>
     <p>I am a postdoctoral researcher in the <a href="https://rlab.cs.dartmouth.edu/home/">Reality and Robotics Lab</a> at Dartmouth College, advised by Prof. <a href="https://rlab.cs.dartmouth.edu/albertoq/">Alberto Quattrini Li</a>. I received my Ph.D. in Mechanical Engineering from Stevens Institute of Technology, advised by Prof. <a href="https://robustfieldautonomylab.github.io/">Brendan Englot</a>.</p>
+    <p>My training began at <strong>Tongji University</strong> in Shanghai, where I earned a master’s degree in Surveying Engineering and a bachelor’s degree in Geo-Information Systems. I was advised by Prof. Tiantian Fen and Prof. <a href="http://cs1.tongji.edu.cn/~junqiao/">Junqiao Zhao</a>.</p>
     <p>My goal is to enable autonomous robots to support underwater infrastructure maintenance and monitor offshore ecosystems. My interest in marine environments also comes with a love of sharks.</p>
-    <details class="background-details"><summary>Education &amp; background <span aria-hidden="true">+</span></summary><p>I hold a master’s degree in Surveying Engineering and a bachelor’s degree in Geo-Information Systems from Tongji University in Shanghai, China, where I was advised by Prof. Tiantian Fen and Prof. <a href="http://cs1.tongji.edu.cn/~junqiao/">Junqiao Zhao</a>.</p></details>
   </div>
   <aside class="highlights" aria-labelledby="highlights-title">
     <p class="eyebrow" id="highlights-title">Recent highlights</p>

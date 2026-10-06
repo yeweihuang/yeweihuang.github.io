@@ -77,11 +77,7 @@ main { min-height: 65vh; }
 .section-label .section-number { display: block; }
 .about-copy { font-size: .91rem; color: var(--text); }
 .about-copy .lead { font-size: 1.12rem; color: var(--ink); line-height: 1.55; margin-bottom: 20px; }
-.background-details { margin-top: 22px; border-top: 1px solid var(--line); padding-top: 12px; }
 summary { cursor: pointer; }
-.background-details summary { font-size: .82rem; font-weight: 600; color: var(--ink); }
-.background-details summary span { float: right; }
-.background-details p { margin-top: 15px; font-size: .86rem; }
 .highlights { border-left: 1px solid var(--line); padding-left: 25px; }
 .highlights > .eyebrow { color: var(--teal); margin-bottom: 22px; }
 .highlight { margin-bottom: 22px; }
