@@ -121,6 +121,8 @@ summary { cursor: pointer; }
 .field-details { border-top: 1px solid #345c82; margin-top: 35px; }
 .field-details summary { padding-block: 18px; font-size: .8rem; }
 .field-details summary span { float: right; }
+.field-details summary span::before { content: "+"; }
+.field-details[open] summary span::before { content: "−"; }
 .field-extra { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 22px; margin-top: 10px; }
 .field-extra img { width: 100%; height: 260px; object-fit: cover; }
 .field-extra figcaption { margin-top: 10px; color: #c8def4; font-size: .78rem; }
