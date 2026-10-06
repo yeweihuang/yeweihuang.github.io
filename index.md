@@ -123,5 +123,11 @@ image: /assets/images/web/pinkboat-hero.jpg
 </section>
 
 <section id="contact" class="contact-section">
-  <div class="wrap contact-inner"><div><p class="eyebrow">Get in touch</p><h2>Let’s talk robotics.</h2><p>For research conversations and collaboration.</p></div><a class="contact-link" href="mailto:{{ site.email }}">{{ site.email }} <span aria-hidden="true">↗</span></a></div>
+  <div class="wrap contact-inner">
+    <div class="contact-intro">
+      <div class="contact-portrait"><span class="contact-portrait-photo"><img src="{{ '/assets/images/web/yeweihuang.jpg' | relative_url }}" width="600" height="501" loading="lazy" alt="Yewei Huang smiling while kayaking"></span><span class="contact-wave" aria-hidden="true">👋</span></div>
+      <div class="contact-copy"><p class="eyebrow">Get in touch</p><h2>Let’s talk robotics.</h2><p>For research conversations and collaboration.</p></div>
+    </div>
+    <a class="contact-link" href="mailto:{{ site.email }}">{{ site.email }} <span aria-hidden="true">↗</span></a>
+  </div>
 </section>
