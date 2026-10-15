@@ -42,11 +42,13 @@
       const choices = formations.filter(formation => formation !== previousFormation);
       const formation = choices[Math.floor(Math.random() * choices.length)];
       previousFormation = formation;
-      const count = formation === 'diamond' ? (Math.random() < .5 ? 4 : 8)
-        : formation === 'chevron' ? (Math.random() < .5 ? 5 : 7)
-        : Math.floor(random(3, 8));
+      const count = formation === 'diamond' ? 8
+        : formation === 'chevron' ? (Math.random() < .5 ? 7 : 9)
+        : formation === 'school' ? (Math.random() < .5 ? 6 : 9)
+        : Math.floor(random(6, 10));
       const spacing = random(40, 58);
-      const size = random(29, 43);
+      // Keep glyph size stable across sharks and formations; only spacing adapts.
+      const size = Math.min(36, window.innerWidth / 10, window.innerHeight / 8);
       const duration = random(3.8, 5.8);
       const positions = Array.from({ length: count }, (_, i) => {
         if (formation === 'chevron') {
@@ -60,23 +62,29 @@
         }
         if (formation === 'line') return [i, 0];
         if (formation === 'diagonal') return [i * .7, i * .55];
-        return [Math.floor(i / 3) + random(-.12, .12), (i % 3) + random(-.12, .12)];
+        // Complete columns on an exact grid keep the school aligned in motion.
+        return [Math.floor(i / 3), i % 3];
       });
       const minX = Math.min(...positions.map(position => position[0]));
       const minY = Math.min(...positions.map(position => position[1]));
-      const rawWidth = (Math.max(...positions.map(position => position[0])) - minX) * spacing + size * 1.2;
-      const rawHeight = (Math.max(...positions.map(position => position[1])) - minY) * spacing + size * 1.2;
+      const spanX = (Math.max(...positions.map(position => position[0])) - minX) * spacing;
+      const spanY = (Math.max(...positions.map(position => position[1])) - minY) * spacing;
+      const glyphExtent = size * 1.2;
       const topMargin = Math.min(110, window.innerHeight * .2);
-      const scale = Math.min(1, (window.innerWidth - 32) / rawWidth, (window.innerHeight - topMargin - 24) / rawHeight);
+      const scale = Math.max(0, Math.min(1,
+        spanX ? (window.innerWidth - 32 - glyphExtent) / spanX : 1,
+        spanY ? (window.innerHeight - topMargin - 24 - glyphExtent) / spanY : 1));
+      const width = spanX * scale + glyphExtent;
+      const height = spanY * scale + glyphExtent;
       const overlay = document.createElement('div');
       overlay.className = 'shark-parade';
       overlay.setAttribute('aria-hidden', 'true');
       const team = document.createElement('div');
       team.className = 'shark-team';
       team.dataset.formation = formation;
-      team.style.width = `${rawWidth * scale}px`;
-      team.style.height = `${rawHeight * scale}px`;
-      team.style.top = `${random(topMargin, Math.max(topMargin, window.innerHeight - rawHeight * scale - 24))}px`;
+      team.style.width = `${width}px`;
+      team.style.height = `${height}px`;
+      team.style.top = `${random(topMargin, Math.max(topMargin, window.innerHeight - height - 24))}px`;
       team.style.animationDuration = `${duration}s`;
       positions.forEach(([x, y]) => {
         const shark = document.createElement('span');
@@ -84,7 +92,7 @@
         shark.textContent = '🦈';
         shark.style.left = `${(x - minX) * spacing * scale}px`;
         shark.style.top = `${(y - minY) * spacing * scale}px`;
-        shark.style.fontSize = `${size * random(.85, 1.15) * scale}px`;
+        shark.style.fontSize = `${size}px`;
         team.appendChild(shark);
       });
       overlay.appendChild(team);
