@@ -66,7 +66,7 @@ image: /assets/images/web/pinkboat-hero.jpg
     </article>
     <article class="research-card">
       <a class="research-image" href="https://ieeexplore.ieee.org/document/9662965" aria-label="Read the DiSCo-SLAM paper"><img src="{{ '/assets/images/web/DiSCo-SLAM.jpg' | relative_url }}" width="1200" height="951" loading="lazy" alt="Distributed multi-robot LiDAR SLAM"></a>
-      <div class="research-body"><p class="eyebrow">06 / Multi-robot perception</p><h3>DiSCo-SLAM: Less<br> communication.</h3><p>Distributed scan context-enabled multi-robot LiDAR SLAM with global and local graph optimization.</p><p class="venue">IEEE Robotics and Automation Letters · 2022</p><div class="resource-links"><a href="https://ieeexplore.ieee.org/document/9662965">Paper ↗</a><a href="https://github.com/RobustFieldAutonomyLab/DiSCo-SLAM">Code ↗</a></div></div>
+      <div class="research-body"><p class="eyebrow">06 / Multi-robot perception</p><h3>DiSCo-SLAM: Less<br> communication.</h3><p>Distributed scan context-enabled multi-robot LiDAR SLAM with global and local graph optimization.</p><p class="venue">IEEE Robotics and Automation Letters · 2022</p><div class="resource-links"><a href="https://ieeexplore.ieee.org/document/9662965">Paper ↗</a><a href="https://github.com/RobustFieldAutonomyLab/DiSCo-SLAM">Code ↗</a><a href="https://robustfieldautonomylab.github.io/DiSCo-SLAM.mp4">Video ↗</a></div></div>
     </article>
   </div>
 </section>
