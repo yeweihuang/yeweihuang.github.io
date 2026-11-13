@@ -1,4 +1,19 @@
 (() => {
+  const seasonalHero = document.querySelector('[data-seasonal-hero]');
+  if (seasonalHero) {
+    // December–February is winter in New Hampshire; switch without a rebuild.
+    const month = Number(new Intl.DateTimeFormat('en-US', {
+      month: 'numeric', timeZone: 'America/New_York'
+    }).format(new Date()));
+    if (month === 12 || month <= 2) {
+      const image = seasonalHero.querySelector('img');
+      const caption = seasonalHero.querySelector('[data-hero-caption]');
+      seasonalHero.dataset.season = 'winter';
+      image.src = image.dataset.winterSrc;
+      image.alt = image.dataset.winterAlt;
+      caption.textContent = caption.dataset.winterCaption;
+    }
+  }
   const header = document.querySelector('.site-header');
   const toggle = document.querySelector('.menu-toggle');
   const nav = document.querySelector('.site-nav');

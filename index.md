@@ -3,7 +3,7 @@ layout: default
 title: Yewei Huang
 permalink: /
 page_class: home
-image: /assets/images/web/pinkboat-hero.jpg
+image: /assets/images/web/pinkboat-autumn-hero.jpg
 ---
 <section class="hero wrap" aria-labelledby="hero-title">
   <div class="hero-copy">
@@ -16,9 +16,9 @@ image: /assets/images/web/pinkboat-hero.jpg
     </div>
     <div class="hero-actions"><a class="button button-primary" href="#research">Explore my research <span aria-hidden="true">↓</span></a><a class="button button-text" href="{{ '/cv.html' | relative_url }}">View CV <span aria-hidden="true">↗</span></a><a class="button button-text" href="#contact">Contact <span aria-hidden="true">↗</span></a></div>
   </div>
-  <figure class="hero-figure">
-    <img src="{{ '/assets/images/web/pinkboat-hero.jpg' | relative_url }}" width="1200" height="1600" alt="Red surface robot moving across a lake in falling snow" fetchpriority="high">
-    <figcaption><span class="eyebrow">From algorithms to the field</span><span>Some very exciting and fun winter field work with surface vehicles.</span><a href="#robots" aria-label="Explore the robot gallery">↘</a></figcaption>
+  <figure class="hero-figure" data-seasonal-hero data-season="autumn">
+    <img src="{{ '/assets/images/web/pinkboat-autumn-hero.jpg' | relative_url }}" width="1200" height="1600" alt="Pink surface robot on a lake beside a wooded shoreline in autumn" fetchpriority="high" data-winter-src="{{ '/assets/images/web/pinkboat-hero.jpg' | relative_url }}" data-winter-alt="Red surface robot moving across a lake in falling snow">
+    <figcaption><span class="eyebrow">From algorithms to the field</span><span data-hero-caption data-winter-caption="Some very exciting and fun winter field work with surface vehicles.">Some very exciting and fun autumn field work with surface vehicles.</span><a href="#robots" aria-label="Explore the robot gallery">↘</a></figcaption>
   </figure>
 </section>
 
