@@ -35,6 +35,7 @@ image: /assets/images/web/pinkboat-autumn-hero.jpg
   </div>
   <aside class="highlights" aria-labelledby="highlights-title">
     <p class="eyebrow" id="highlights-title">Recent highlights</p>
+    <div class="highlight"><span>2026–27 / RECOGNITION</span><p>Selected for Rising Stars in EECS at the University of Washington.</p></div>
     <div class="highlight"><span>2026 / RECOGNITION</span><p>Honorable Mention, inaugural IEEE RAS Women in Engineering Best PhD Award in Robotics and Automation.</p></div>
     <div class="highlight"><span>2025 / RECOGNITION</span><p>Maryland Robotics Center’s Future Leaders in Robotics and AI.</p></div>
     <a class="text-link" href="#awards">All awards &amp; honors <span aria-hidden="true">↗</span></a>
@@ -116,6 +117,7 @@ image: /assets/images/web/pinkboat-autumn-hero.jpg
 <section id="awards" class="awards-section section wrap" aria-labelledby="awards-title">
   <div class="section-label"><p class="section-number">06 / RECOGNITION</p><h2 id="awards-title">Awards &amp; Honors</h2></div>
   <ul class="awards-list">
+    <li><span>2026–27</span><p>Rising Stars in EECS, University of Washington</p></li>
     <li><span>2026</span><p>Honorable Mention, inaugural IEEE RAS Women in Engineering Best PhD Award in Robotics and Automation</p></li>
     <li><span>2025</span><p>Maryland Robotics Center: Future Leaders in Robotics and AI</p></li>
     <li><span>2024–25</span><p>Paul Kaplan Award for Distinguished Doctoral Work upon Graduation</p></li>
